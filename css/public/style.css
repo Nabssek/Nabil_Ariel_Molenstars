@@ -148,7 +148,7 @@ nav{
 .navp{
    color: white;
 }
-/*--------------- header ---------------------------------/*
+/*--------------- header ---------------------------------/*/
 
 
 
@@ -293,8 +293,96 @@ nav{
 
 
 
+.section_6{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
 
+.section_6>.box{
 
+   width: 61%;
+   background-color: aquamarine;
+}
+.section_6 h5, h2{
+   color: white;
+}
+
+.section_6>.box>.contact_form>.title1{
+   display: flex;
+   justify-content: center;
+}
+.section_6>.box>.contact_form>.title1 h5{
+   color: rgba(50,158,203,255);
+   font-size: 125%;
+   margin-bottom: 1%;
+}
+.section_6>.box>.contact_form>.title2{
+   display: flex;
+   justify-content: center;
+}
+.section_6>.box>.contact_form>.title2 h2{
+   font-size: 275%;
+   margin-top: 0;
+   margin-bottom: 3%;
+}
+
+.section_6>.box>.contact_form form {
+   display: flex;
+   flex-direction: column;
+   width: 100%;   
+   background-color: violet;
+   justify-content: space-between;
+}
+
+.section_6>.box>.contact_form form>.form_row{
+   display: flex;
+}
+
+.section_6>.box>.contact_form input[type="text"]{
+   padding-left: 1%;
+   opacity: 1;
+   width: 30%;
+   /* width: 33%; */
+   border-color: white ;
+   background-color: aqua;
+   border-radius: 5px;
+}
+.section_6>.box>.contact_form input[type="email"]{
+   opacity: 1;   /* width: 33%; */
+   width: 30%;
+   padding-left: 1%;
+   border-color: white ;
+   border-radius: 5px;
+}
+.section_6>.box>.contact_form input[type="tel"]{
+   opacity: 1;
+   width: 30%;
+   padding-left: 1%;
+   /* width: 25%;    */
+   border-color: white ;
+   border-radius: 5px;
+}
+
+.section_6>.box>.contact_form form>.form_row:last-child{
+   width: 100%;
+   height: 110px;
+}
+
+.section_6>.box>.contact_form input[type="text"]:last-child{
+   background-color: blue;
+   width: 100%;
+}
+.section_6>.box>.contact_form input[type="text"]:last-child{
+   display: flex;
+   justify-content: start;
+   align-items: bottom;
+   align-content: bottom;
+
+   background-color: blue;
+   width: 100%;
+}
+/*----------------main end--------------------*/
 
 
 /*---------------footer start-----------------*/
