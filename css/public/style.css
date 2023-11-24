@@ -1,0 +1,151 @@
+@font-face{
+   font-family: second;
+   src: url(../Assets/fonts/OswaldMedium.ttf)
+
+}
+body{
+   margin:0px;
+   padding: 0px;
+   width: 100%;
+   background-color: rgb(9,24,83);
+}
+
+header{
+   background-image: url(../../Assets/images/banner-overlay-img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+   height: 750px;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   /* background-color: red; */
+  
+}
+
+nav{
+   height: 200px;
+   /* background-color: beige; */
+   display: flex;
+  
+}
+
+.logonav{
+   height: 200px;
+   width: 33%;
+   /* background-color: red; */
+   display: flex;
+   justify-content: end;
+   align-items: center;
+   margin-top: 30px;
+}
+
+.logo1{
+   height: 200px;
+   width: 200px;
+   background-image: url(../../Assets/images/logo-img.png);
+   background-repeat: no-repeat;
+   margin-top: 20px;
+
+}
+
+.recherche {
+   width: 65%;
+   height: 200px;
+   /* background-color: violet; */
+   display: flex;
+   gap: 50px;
+   align-items: center;
+   justify-content: center;
+}
+
+.contenue1header{
+   height: 800px;
+   width: 100%;
+   /* background-color: red;
+   opacity: 50%; */
+   display: flex;
+   align-items: center;
+   justify-content:end;
+   align-items: center;
+   
+   
+   
+
+}
+
+.enfant1{
+   height: 300px;
+   margin-top: 500px;
+   width: 35%;
+   /* background-color: yellow; */
+   display: flex;
+   margin-top: 50px;
+   flex-direction: column;
+   /* align-items: center; */
+   justify-content: center;
+ 
+  
+}
+
+.enfant2{
+   height: 400px;
+   width: 43%;
+   /* background-color: green; */
+   display: flex;
+   flex-direction: column;
+   /* align-items: center; */
+   justify-content: center;
+   align-items:start;
+  
+   
+}
+
+.logo2{
+   height: 600px;
+   width: 600px;
+   
+}
+
+.titre1{
+   color:white;
+   font-size: 60px;
+   margin-bottom: 0;
+}
+
+.button2{
+   width: 30%;
+   border-radius: 20px;
+   height: 40px;
+   background-color: rgb(10,211,239);
+   color: white;
+   border:0
+}
+
+.button3{
+   width: 30%;
+   border-radius: 20px;
+   height: 40px;
+   background-color: rgb(33,82,159);
+   color: white;
+   border:0;
+}
+
+.para{
+   color: white;
+  
+}
+
+.button1{
+   width: 15%;
+   border-radius: 20px;
+   height: 40px;
+   background-color:  rgb(10,211,239);
+   color: white;
+   border:0
+
+}
+
+.navp{
+   color: white;
+}
+/*--------------- header ---------------------------------/*
