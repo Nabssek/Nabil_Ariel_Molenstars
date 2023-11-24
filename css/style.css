@@ -1,0 +1,175 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------footer-----------------*/
+
+footer{
+    width: 100%;
+    background-image: url(../Assets/images/banner-overlay-img.png);
+}
+
+/*-----footer resume description----*/
+footer>.resume_description{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+footer>.resume_description>.box{
+    width: 61%;
+    display: flex;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+/*----logo side----*/
+footer>.resume_description>.box>.logo{
+    width: 39%;
+}
+
+footer>.resume_description>.box>.logo img{
+    width: 50%;
+}
+/*----about side----*/
+
+footer>.resume_description>.box>.about{
+    width: 18%;
+}
+
+footer>.resume_description>.box>.about h1 {
+    color: white;
+    font-size: 95%;
+}
+footer>.resume_description>.box>.about a {
+    color: white;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+/*---- services side----*/
+
+footer>.resume_description>.box>.services{
+    width: 28%;
+    background-color: yellow;
+}
+footer>.resume_description>.box>.newsletter{
+    width: 25%;
+    background-color: blue;
+}
+
+footer>.resume_description>.box>.services h1 {
+    color: black;
+    font-size: 95%;
+}
+address{
+    font-style: normal;
+}
+a[mail]
+
+/*-----footer copyright----*/
+
+footer >.copyright {
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: center;
+}
+footer >.copyright p {
+    font-size: 10px;
+    color: white;
+    opacity: 0.4;
+}
