@@ -149,3 +149,328 @@ nav{
    color: white;
 }
 /*--------------- header ---------------------------------/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------footer start-----------------*/
+
+footer{
+   width: 100%;
+   background-image: url(../Assets/images/banner-overlay-img.png);
+}
+
+/*-----footer resume description----*/
+footer>.resume_description{
+   display: flex;
+   justify-content: center;
+   width: 100%;
+}
+
+footer>.resume_description>.box{
+   width: 61%;
+   display: flex;
+   margin-top: 7%;
+   margin-bottom: 7%;
+}
+
+/*----logo side----*/
+footer>.resume_description>.box>.logo{
+   width: 39%;
+   /* background-color: aqua; */
+   padding-top: 2%;
+}
+
+footer>.resume_description>.box>.logo img{
+   width: 50%;
+}
+
+footer>.resume_description>.box>.logo p:first-of-type{
+   margin-top: 7%;
+   margin-bottom: 0;
+
+}
+footer>.resume_description>.box>.logo p {
+   color: white;
+   opacity: 0.5;
+   margin-top: 2%;
+   margin-bottom: 0;
+}
+/*----about side----*/
+
+footer>.resume_description>.box>.about{
+   width: 18%;
+}
+
+footer>.resume_description>.box>.about h1 {
+   color: white;
+   font-size: 95%;
+}
+footer>.resume_description>.box>.about a {
+   color: white;
+   opacity: 0.5;
+   text-decoration: none;
+}
+
+/*---- services side----*/
+
+footer>.resume_description>.box>.services{
+   width: 28%;
+   /* background-color: yellow; */
+}
+
+
+footer>.resume_description>.box>.services h1 {
+   margin-bottom: 7%;
+   color: white;
+   font-size: 95%;
+}
+address{
+   font-style: normal;
+   color: white;
+   opacity: 0.5;
+   font-size: 85%;
+}
+a[href^="tel:"] {
+   color: white;
+   opacity: 0.5;
+   text-decoration: none;
+   font-size: 85%;
+
+ }
+a[href^="mailto:"] {
+   color: white;
+   opacity: 0.5;
+   text-decoration: none;
+   font-size: 85%;
+
+ }
+
+ footer>.resume_description>.box>.services>.list_logo{
+   display: flex;
+   /* flex-wrap: wrap; */
+   width: 29%;
+   justify-content: space-between;
+ }
+ footer>.resume_description>.box>.services>.list_logo li{
+   list-style: none;
+ }
+ footer>.resume_description>.box>.services>.list_logo img{
+   width: 55%;
+ }
+
+
+/*---- newsletter side----*/
+
+footer>.resume_description>.box>.newsletter{
+   width: 25%;
+}
+
+
+footer>.resume_description>.box>.newsletter h1 {
+   margin-bottom: 7%;
+   color: white;
+   font-size: 95%;
+}
+
+input[type="email"]{
+   border: 1px solid;
+   height: 15%;
+   width: 98%;
+   border-radius: 5px;
+}
+
+footer>.resume_description>.box>.newsletter span{
+   font-size: 55%;
+   color: white;
+   opacity: 0.5;
+}
+
+footer>.resume_description>.box>.newsletter>.box_agree{
+   display: flex;
+   justify-content: flex-start;
+}
+
+footer>.resume_description>.box>.newsletter>.box_agree span{
+   display: flex;
+   text-align: center;
+   align-items: center;
+}
+
+footer>.resume_description>.box>.newsletter>.submit{
+   position: relative;
+   display: inline-block;
+   width: 100%;
+}
+footer>.resume_description>.box>.newsletter>.submit button{
+   border: none;
+   border-radius: 7px;
+   position: absolute;
+   right: 5px;
+   top: 7px;
+}
+input[type="email"]{
+   height: 35px;
+   color: none;
+   opacity: 0.3;
+}
+input[placeholder]{
+  opacity:0.1 ;
+}
+
+/*-----footer copyright----*/
+
+footer >.copyright {
+   border-top: 1px solid rgba(255, 255, 255, 0.459);
+   display: flex;
+   justify-content: center;
+}
+footer >.copyright p {
+   font-size: 10px;
+   color: white;
+   opacity: 0.4;
+}
