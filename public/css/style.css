@@ -1,0 +1,89 @@
+@font-face{
+   font-family: second;
+   src: url(../Assets/fonts/OswaldMedium.ttf)
+
+}
+body{
+   margin:0px;
+   padding: 0px;
+   width: 100%;
+}
+
+header{
+   background-image: url(../../Assets/images/banner-overlay-img.png);
+   height: 900px;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+  
+}
+
+nav{
+   height: 200px;
+   /* background-color: beige; */
+   display: flex;
+  
+}
+
+.logonav{
+   height: 200px;
+   width: 45%;
+   /* background-color: red; */
+   display: flex;
+   justify-content: end;
+   align-items: center;
+}
+
+.logo1{
+   height: 200px;
+   width: 200px;
+   background-image: url(../../Assets/images/logo-img.png);
+   background-repeat: no-repeat;
+   margin-top: 20px;
+
+}
+
+.recherche {
+   width: 65%;
+   height: 200px;
+   /* background-color: violet; */
+   display: flex;
+   gap: 50px;
+   align-items: center;
+   justify-content: center;
+}
+
+.contenue1header{
+   height: 100%;
+   width: 100%;
+   background-color: red;
+   opacity: 50%;
+   display: flex;
+   
+
+}
+
+.enfant1{
+   height: 100%;
+   width: 60%;
+   background-color: aqua;
+   display: flex;
+   flex-direction: column;
+   align-items: end;
+   justify-content: center;
+   
+}
+
+.enfant2{
+   height: 100%;
+   width: 40%;
+   background-color: green;
+   
+
+}
+
+.enfant11{
+   width: 50%;
+   height: 300px;
+   background-color: yellow;
+}
