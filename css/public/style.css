@@ -236,7 +236,7 @@ h1{
 
 .imagesectionfirst{
    height: 500px;
-   width: 50%;
+   width: 62%;
    /* background-color: yellow; */
    display: flex;
    justify-content: end;
@@ -251,13 +251,13 @@ h1{
 
 .textesectionfirst{
   height: 550px;
-   width: 25%;
+   width: 40%;
    /* background-color: yellow; */
    display: flex;
    flex-direction: column;
    align-items: start;
    justify-content: center;
-   margin-top: 40px;
+
 
 }
 
@@ -290,6 +290,20 @@ ul{
    /* margin-left: 0px; */
    padding-left: 20px;
    margin-top: 0px;
+}
+
+.fleche{
+   width: 20%;
+   /* background-color: green; */
+   display: flex;
+   align-items: center;
+   justify-content: end;
+}
+
+.flecheimage{
+   height: 280px;
+   width: 80%;
+  
 }
 
 
