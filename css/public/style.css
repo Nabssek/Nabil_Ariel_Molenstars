@@ -148,10 +148,163 @@ nav{
 .navp{
    color: white;
 }
-/*--------------- header ---------------------------------/*/
+
+/* ------------------------------header-------------------------------------- */
+
+/* ---------------------------------main---------------------------------------- */
+
+.section_first{
+   height: 850px;
+   width: 100%;
+   background-color: rgb(10,22,80);
+   display: flex;
+   flex-direction: column;
+}
 
 
+.titlesectionfirst{
+   height: 150px;
+   width: 100%;
+   /* background-color: beige; */
+   display: flex;
+   flex-direction: column;
+   justify-content: end;
+   align-items: center;
+   line-height: 0px;
+}
 
+h4{
+   margin-bottom: 15px;
+   color:rgb(22,151,190);
+}
+
+h1{
+   color: white;
+   font-size: 40px;
+}
+
+.logosectionfirst{
+   height: 130px;
+   width: 100%;
+   /* background-color: red; */
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 20px;
+}
+
+.icon{
+   border-radius: 15px;
+   padding: 10px;
+   height: 70px;
+   width: 70px;
+
+}
+
+.icon:hover{
+   margin-bottom: 20px;
+   background-image: white;
+   
+      filter: opacity(100%);
+      -webkit-filter: white(100%);
+   transition: 1s;
+}
+
+
+.cadreforicon{
+   height: 110px;
+   width: 120px;
+   background-color:rgb(23,37,110) ;
+   border-radius: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.cadreforicon:hover{
+   background-color:  rgb(10,211,239);
+}
+
+.seconddiv{
+      height: 600px;
+      width: 100%;
+      /* background-color: red; */
+      display: flex;
+      gap: 20px;
+}
+
+.imagesectionfirst{
+   height: 500px;
+   width: 62%;
+   /* background-color: yellow; */
+   display: flex;
+   justify-content: end;
+   align-items: end,center;
+   margin-top: 100px;
+}
+
+.imagesectionfirst1{
+   height: 400px;
+   width: 500px;
+}
+
+.textesectionfirst{
+  height: 550px;
+   width: 40%;
+   /* background-color: yellow; */
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   justify-content: center;
+
+
+}
+
+.h1sectionfirst{
+   color: white;
+   font-size: 35px;
+   margin-top: 0px;
+   margin-bottom: 3px;
+
+}
+
+.h4sectionfirst{
+   margin-bottom: 0px;
+   color:rgb(22,151,190);
+
+}
+
+.parasectionfirst{
+   color: #586baf;
+}
+
+.liste{
+   list-style-type: circle ;
+   margin-left: 0px;
+   color: #586baf;
+   margin-top: 2px;
+}
+
+ul{
+   /* margin-left: 0px; */
+   padding-left: 20px;
+   margin-top: 0px;
+}
+
+.fleche{
+   width: 20%;
+   /* background-color: green; */
+   display: flex;
+   align-items: center;
+   justify-content: end;
+}
+
+.flecheimage{
+   height: 280px;
+   width: 80%;
+  
+}
 
 
 
