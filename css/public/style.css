@@ -306,7 +306,18 @@ ul{
   
 }
 
+/* ---------------------------fin style section_first----------------------------- */
 
+/* ---------------------------section_second----------------------------- */
+
+.section_second{
+   height: 650px;
+   width: 100%;
+   background-color: rgba(18,32,97,255);
+   background-image: url(../../Assets/images/image\ 2\ molenstar.png);
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+}
 
 
 
