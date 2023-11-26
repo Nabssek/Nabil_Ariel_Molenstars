@@ -562,7 +562,7 @@ transform: rotate(180deg);
 .titrehorsecran{
    color: white;
    margin-bottom: 5px;
-   
+   font-family: p5;
    margin-left: 30px;
 }
 
@@ -570,11 +570,13 @@ transform: rotate(180deg);
    color: white;
    margin-left: 30px;
    margin-top: 0px;
+   font-family: p1;
 }
 
 .lienhorsecran{
    color: white;
    margin-left: 30px;
+   font-family: p1;
 }
 
 .enfant2seconddiv{
@@ -617,6 +619,9 @@ transform: rotate(180deg);
    color: white;
    font-family: p1;
 }
+
+
+/* --------------------fin section 3----------------------------------------- */
 
 
 
