@@ -1,8 +1,37 @@
 @font-face{
-   font-family: second;
-   src: url(../Assets/fonts/OswaldMedium.ttf)
+   font-family: p1;
+   src: url(../../Assets/fonts/RobotoRegular.ttf)
 
 }
+
+@font-face{
+   font-family: p2;
+   src: url(../../Assets/fonts/OswaldMedium.ttf)
+
+}
+
+@font-face{
+   font-family:p3;
+   src: url(../../Assets/fonts/OswaldRegular.ttf)
+
+}
+
+@font-face{
+   font-family: p4;
+   src: url(../../Assets/fonts/RobotoBold.ttf)
+
+}
+
+
+@font-face{
+   font-family: p5;
+   src: url(../../Assets/fonts/RobotoMedium.ttf)
+
+}
+
+
+
+
 body{
    margin:0px;
    padding: 0px;
@@ -26,6 +55,7 @@ nav{
    height: 200px;
    /* background-color: beige; */
    display: flex;
+   font-family: robotoregular;
   
 }
 
@@ -110,6 +140,7 @@ nav{
    color:white;
    font-size: 60px;
    margin-bottom: 0;
+   font-family: p5;
 }
 
 .button2{
@@ -118,7 +149,14 @@ nav{
    height: 40px;
    background-color: rgb(10,211,239);
    color: white;
-   border:0
+   border:0;
+   font-family: p1;
+   
+}
+
+.button2:hover{
+   background-color: transparent;
+   border: 2px solid  rgb(10,211,239) ;
 }
 
 .button3{
@@ -128,10 +166,17 @@ nav{
    background-color: rgb(33,82,159);
    color: white;
    border:0;
+   font-family: p1;
+}
+
+.button3:hover{
+   background-color: transparent;
+   border: 2px solid  rgb(10,211,239) ;
 }
 
 .para{
-   color: white;
+   color: #a1aadf;
+   font-family: p1;
   
 }
 
@@ -141,12 +186,14 @@ nav{
    height: 40px;
    background-color:  rgb(10,211,239);
    color: white;
-   border:0
+   border:0;
+   font-family: p1;
 
 }
 
 .navp{
    color: white;
+   font-family: p1;
 }
 
 /* ------------------------------header-------------------------------------- */
@@ -173,14 +220,17 @@ nav{
    line-height: 0px;
 }
 
-h4{
+h5{
    margin-bottom: 15px;
    color:rgb(22,151,190);
+   font-family: p1;
+   letter-spacing: 2px;
 }
 
 h1{
    color: white;
    font-size: 40px;
+   font-family: p3;
 }
 
 .logosectionfirst{
@@ -266,18 +316,22 @@ h1{
    font-size: 35px;
    margin-top: 0px;
    margin-bottom: 3px;
+   font-family: p3;
 
 }
 
 .h4sectionfirst{
    margin-bottom: 0px;
    color:rgb(22,151,190);
+   font-family: p1;
+   letter-spacing: 2px;
 
 }
 
 .parasectionfirst{
    color: #586baf;
    /* margin-left: 20px; */
+   font-family: p1;
   
    
 }
@@ -285,6 +339,7 @@ h1{
 .liste{
    list-style-type: circle ;
    color: #586baf;
+   font-family: p1;
    /* margin-top: 2px; */
 }
 
@@ -373,12 +428,14 @@ display: flex;
    margin-left: 25px;
    margin-bottom: 10px;
    margin-top: 30px;
+   font-family: p1;
 }
 
 .parasectionsecond{
    margin-left: 25px;
    margin-top: 5px;
    color: #5972b5;
+   font-family: p1;
 }
 
 .buttonsectionsecond{
@@ -395,7 +452,9 @@ display: flex;
    height: 40px;
    background-color:  rgb(10,211,239);
    color: white;
-   border:0
+   border:0;
+   font-family: p1;
+   
 }
 
 .contenue:hover{
@@ -474,6 +533,8 @@ transform: rotate(180deg);
 
 .h4sectionthird{
    color:rgb(22,151,190);
+   font-family: p1;
+   letter-spacing: 2px;
 
 }
 
@@ -484,11 +545,11 @@ transform: rotate(180deg);
 
 .horsecran{
    position: relative;
-   left: 377px;
+   left: 322px;
    bottom: 254px;
    border-radius: 10px;
    height: 250px;
-   width: 50%;
+   width: 53%;
    background-color:  rgb(10,211,239);
 }
 
@@ -530,7 +591,7 @@ transform: rotate(180deg);
    /* background-color: aqua; */
    display: flex;
    flex-direction: column;
-   
+   margin-top: 30px;
   align-items: center;
 }
 
@@ -549,11 +610,15 @@ transform: rotate(180deg);
 .chiffredanscercle{
    color: white;
    font-size: 40px;
+   font-family: p2;
 }
 
 .qualityservice{
    color: white;
+   font-family: p1;
 }
+
+
 
 
 
