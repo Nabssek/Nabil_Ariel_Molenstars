@@ -255,7 +255,7 @@ h1{
    /* background-color: yellow; */
    display: flex;
    flex-direction: column;
-   align-items: start;
+   
    justify-content: center;
 
 
@@ -277,13 +277,15 @@ h1{
 
 .parasectionfirst{
    color: #586baf;
+   /* margin-left: 20px; */
+  
+   
 }
 
 .liste{
    list-style-type: circle ;
-   margin-left: 0px;
    color: #586baf;
-   margin-top: 2px;
+   /* margin-top: 2px; */
 }
 
 ul{
@@ -306,12 +308,116 @@ ul{
   
 }
 
+/* ---------------------------fin style section_first----------------------------- */
+
+/* ---------------------------section_second----------------------------- */
+
+.section_second{
+   height: 650px;
+   width: 100%;
+   background-color: rgba(18,32,97,255);
+   background-image: url(../../Assets/images/image\ 2\ molenstar.png);
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
 
 
+.titresectionsecond{
+   height: 200px;
+   width: 50%;
+   /* background-color: red; */
+   display: flex;
+   flex-direction: column;
+   justify-content: end;
+   align-items: center;
+   line-height: 40px;
+}
+
+.boxcontenue{
+   height: 320px;
+   width: 100%;
+   /* background-color: beige; */
+   display: flex;
+   gap: 20px;
+   justify-content: center;
+   margin-top: 20px;
+}
+
+.contenue{
+   height: 280px;
+   width: 14%;
+   background-color:rgba(23,37,110,255);
+   /* flex-wrap: wrap; */
+   border-radius: 15px;
+   display: flex;
+   flex-direction: column;
+ 
+
+}
+
+.logocontenue{
+   margin-top: 40px;
+   height: 40px;
+   width: 25%;
+   margin-left: 25px;
+   
+  
+}
+
+.titrecontenue{
+   color: white;
+   margin-left: 25px;
+   margin-bottom: 10px;
+   margin-top: 30px;
+}
+
+.parasectionsecond{
+   margin-left: 25px;
+   margin-top: 5px;
+   color: #5972b5;
+}
+
+.buttonsectionsecond{
+   height: 100px;
+   width: 100%;
+   /* background-color: red; */
+   display: flex;
+   justify-content: center;
+}
+
+.button1sectionsecond{
+   width: 8%;
+   border-radius: 20px;
+   height: 40px;
+   background-color:  rgb(10,211,239);
+   color: white;
+   border:0
+}
+
+.contenue:hover{
+   border: 2px solid rgb(10,211,239);
+   cursor: pointer;
+  
+}
+ 
+
+.contenue:hover .logocontenue{
+transform:translatey(-15px);
+transition: 1s;
+  
+}
+
+.button1sectionsecond:hover{
+  background-color:transparent;
+  
+   border: 2px solid rgb(10,211,239);
 
 
-
-
+}
 
 
 
