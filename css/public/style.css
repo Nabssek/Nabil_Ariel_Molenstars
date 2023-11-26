@@ -419,14 +419,141 @@ transition: 1s;
 
 }
 
+/* 
+--------------------fin section second------------------ */
+
+/* -------------------- debut section third---------------------- */
+
+.section_third{
+   height: 650px;
+   width: 100%;
+   background-color: rgb(10,22,80);
+   display:flex;
+   gap: 5px;
+}
+
+.firstdivsectionthird{
+   width: 20%;
+   /* background-color: red; */
+   display: flex;
+   align-items: center;
+   
+}
+
+.seconddivsectionthird{
+   height: 650px;
+   width: 40%;
+   /* background-color: red; */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   
+}
+
+.enfant1seconddiv{
+   height: 300px;
+   width: fit-content;
+   /* background-color: yellow; */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-top: 20px;
+}
+
+.thirddivsectionthird{
+   width: 50%;
+   /* background-color: red; */
+   /* display: flex; */
+}
+
+.imagefirstsectionthird{
+ height: 215px;
+ width: 215px;
+transform: rotate(180deg);
+}
+
+.h4sectionthird{
+   color:rgb(22,151,190);
+
+}
+
+.servicerigth{
+   height: 100%;
+   width: 100%;
+}
+
+.horsecran{
+   position: relative;
+   left: 377px;
+   bottom: 254px;
+   border-radius: 10px;
+   height: 250px;
+   width: 50%;
+   background-color:  rgb(10,211,239);
+}
+
+.servicebox{
+   margin-top: 30px;
+   margin-left: 30px;
+   
+}
+
+.titrehorsecran{
+   color: white;
+   margin-bottom: 5px;
+   
+   margin-left: 30px;
+}
+
+.parahorsecran{
+   color: white;
+   margin-left: 30px;
+   margin-top: 0px;
+}
+
+.lienhorsecran{
+   color: white;
+   margin-left: 30px;
+}
+
+.enfant2seconddiv{
+   width: 100%;
+   height: 200px;
+   /* background-color: violet; */
+   display: flex;
+   gap: 10px;
+}
+
+.cercle{
+   height: 100%;
+   width: 33%;
+   /* background-color: aqua; */
+   display: flex;
+   flex-direction: column;
+   
+  align-items: center;
+}
 
 
+.cercle1{
+   width: 80%;
+   height: 150px;
+   /* background-color: red; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 50%;
+   border: 2px solid  rgb(10,211,239);;
+}
 
+.chiffredanscercle{
+   color: white;
+   font-size: 40px;
+}
 
-
-
-
-
+.qualityservice{
+   color: white;
+}
 
 
 
