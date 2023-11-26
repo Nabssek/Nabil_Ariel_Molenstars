@@ -1,8 +1,37 @@
 @font-face{
-   font-family: second;
-   src: url(../Assets/fonts/OswaldMedium.ttf)
+   font-family: p1;
+   src: url(../../Assets/fonts/RobotoRegular.ttf)
 
 }
+
+@font-face{
+   font-family: p2;
+   src: url(../../Assets/fonts/OswaldMedium.ttf)
+
+}
+
+@font-face{
+   font-family:p3;
+   src: url(../../Assets/fonts/OswaldRegular.ttf)
+
+}
+
+@font-face{
+   font-family: p4;
+   src: url(../../Assets/fonts/RobotoBold.ttf)
+
+}
+
+
+@font-face{
+   font-family: p5;
+   src: url(../../Assets/fonts/RobotoMedium.ttf)
+
+}
+
+
+
+
 body{
    margin:0px;
    padding: 0px;
@@ -26,6 +55,7 @@ nav{
    height: 200px;
    /* background-color: beige; */
    display: flex;
+   font-family: robotoregular;
   
 }
 
@@ -110,6 +140,7 @@ nav{
    color:white;
    font-size: 60px;
    margin-bottom: 0;
+   font-family: p5;
 }
 
 .button2{
@@ -118,7 +149,14 @@ nav{
    height: 40px;
    background-color: rgb(10,211,239);
    color: white;
-   border:0
+   border:0;
+   font-family: p1;
+   
+}
+
+.button2:hover{
+   background-color: transparent;
+   border: 2px solid  rgb(10,211,239) ;
 }
 
 .button3{
@@ -128,10 +166,17 @@ nav{
    background-color: rgb(33,82,159);
    color: white;
    border:0;
+   font-family: p1;
+}
+
+.button3:hover{
+   background-color: transparent;
+   border: 2px solid  rgb(10,211,239) ;
 }
 
 .para{
-   color: white;
+   color: #a1aadf;
+   font-family: p1;
   
 }
 
@@ -141,12 +186,14 @@ nav{
    height: 40px;
    background-color:  rgb(10,211,239);
    color: white;
-   border:0
+   border:0;
+   font-family: p1;
 
 }
 
 .navp{
    color: white;
+   font-family: p1;
 }
 
 /* ------------------------------header-------------------------------------- */
@@ -173,14 +220,17 @@ nav{
    line-height: 0px;
 }
 
-h4{
+h5{
    margin-bottom: 15px;
    color:rgb(22,151,190);
+   font-family: p1;
+   letter-spacing: 2px;
 }
 
 h1{
    color: white;
    font-size: 40px;
+   font-family: p3;
 }
 
 .logosectionfirst{
@@ -202,12 +252,10 @@ h1{
 
 }
 
-.icon:hover{
+.cadreforicon:hover .icon{
    margin-bottom: 20px;
    background-image: white;
-   
-      filter: opacity(100%);
-      -webkit-filter: white(100%);
+ 
    transition: 1s;
 }
 
@@ -255,7 +303,7 @@ h1{
    /* background-color: yellow; */
    display: flex;
    flex-direction: column;
-   align-items: start;
+   
    justify-content: center;
 
 
@@ -266,24 +314,31 @@ h1{
    font-size: 35px;
    margin-top: 0px;
    margin-bottom: 3px;
+   font-family: p3;
 
 }
 
 .h4sectionfirst{
    margin-bottom: 0px;
    color:rgb(22,151,190);
+   font-family: p1;
+   letter-spacing: 2px;
 
 }
 
 .parasectionfirst{
    color: #586baf;
+   /* margin-left: 20px; */
+   font-family: p1;
+  
+   
 }
 
 .liste{
    list-style-type: circle ;
-   margin-left: 0px;
    color: #586baf;
-   margin-top: 2px;
+   font-family: p1;
+   /* margin-top: 2px; */
 }
 
 ul{
@@ -306,21 +361,322 @@ ul{
   
 }
 
+/* ---------------------------fin style section_first----------------------------- */
+
+/* ---------------------------section_second----------------------------- */
+
+.section_second{
+   height: 650px;
+   width: 100%;
+   background-color: rgba(18,32,97,255);
+   background-image: url(../../Assets/images/image\ 2\ molenstar.png);
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
 
 
+.titresectionsecond{
+   height: 200px;
+   width: 50%;
+   /* background-color: red; */
+   display: flex;
+   flex-direction: column;
+   justify-content: end;
+   align-items: center;
+   line-height: 40px;
+}
+
+.boxcontenue{
+   height: 320px;
+   width: 100%;
+   /* background-color: beige; */
+   display: flex;
+   gap: 20px;
+   justify-content: center;
+   margin-top: 20px;
+}
+
+.contenue{
+   height: 280px;
+   width: 14%;
+   background-color:rgba(23,37,110,255);
+   /* flex-wrap: wrap; */
+   border-radius: 15px;
+   display: flex;
+   flex-direction: column;
+ 
+
+}
+
+.logocontenue{
+   margin-top: 40px;
+   height: 40px;
+   width: 25%;
+   margin-left: 25px;
+   
+  
+}
+
+.titrecontenue{
+   color: white;
+   margin-left: 25px;
+   margin-bottom: 10px;
+   margin-top: 30px;
+   font-family: p1;
+}
+
+.parasectionsecond{
+   margin-left: 25px;
+   margin-top: 5px;
+   color: #5972b5;
+   font-family: p1;
+}
+
+.buttonsectionsecond{
+   height: 100px;
+   width: 100%;
+   /* background-color: red; */
+   display: flex;
+   justify-content: center;
+}
+
+.button1sectionsecond{
+   width: 8%;
+   border-radius: 20px;
+   height: 40px;
+   background-color:  rgb(10,211,239);
+   color: white;
+   border:0;
+   font-family: p1;
+   
+}
+
+.contenue:hover{
+   border: 2px solid rgb(10,211,239);
+   cursor: pointer;
+   
+  
+}
+ 
+
+.contenue:hover .logocontenue{
+transform:translatey(-15px);
+transition: 1s;
+  
+}
+
+.button1sectionsecond:hover{
+  background-color:transparent;
+  
+   border: 2px solid rgb(10,211,239);
 
 
+}
+
+/* 
+--------------------fin section second------------------ */
+
+/* -------------------- debut section third---------------------- */
+
+.section_third{
+   height: 650px;
+   width: 100%;
+   background-color: rgb(10,22,80);
+   display:flex;
+   gap: 5px;
+}
+
+.firstdivsectionthird{
+   width: 20%;
+   /* background-color: red; */
+   display: flex;
+   align-items: center;
+   
+}
+
+.seconddivsectionthird{
+   height: 650px;
+   width: 40%;
+   /* background-color: red; */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   
+}
+
+.enfant1seconddiv{
+   height: 300px;
+   width: fit-content;
+   /* background-color: yellow; */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-top: 20px;
+}
+
+.thirddivsectionthird{
+   width: 50%;
+   /* background-color: red; */
+   /* display: flex; */
+}
+
+.imagefirstsectionthird{
+ height: 215px;
+ width: 215px;
+transform: rotate(180deg);
+}
+
+.h4sectionthird{
+   color:rgb(22,151,190);
+   font-family: p1;
+   letter-spacing: 2px;
+
+}
+
+.servicerigth{
+   height: 100%;
+   width: 100%;
+}
+
+.horsecran{
+   position: relative;
+   left: 322px;
+   bottom: 254px;
+   border-radius: 10px;
+   height: 250px;
+   width: 53%;
+   background-color:  rgb(10,211,239);
+}
+
+.servicebox{
+   margin-top: 30px;
+   margin-left: 30px;
+   
+}
+
+.titrehorsecran{
+   color: white;
+   margin-bottom: 5px;
+   font-family: p5;
+   margin-left: 30px;
+}
+
+.parahorsecran{
+   color: white;
+   margin-left: 30px;
+   margin-top: 0px;
+   font-family: p1;
+}
+
+.lienhorsecran{
+   color: white;
+   margin-left: 30px;
+   font-family: p1;
+}
+
+.enfant2seconddiv{
+   width: 100%;
+   height: 200px;
+   /* background-color: violet; */
+   display: flex;
+   gap: 10px;
+}
+
+.cercle{
+   height: 100%;
+   width: 33%;
+   /* background-color: aqua; */
+   display: flex;
+   flex-direction: column;
+   margin-top: 30px;
+  align-items: center;
+}
 
 
+.cercle1{
+   width: 80%;
+   height: 150px;
+   /* background-color: red; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 50%;
+   border: 2px solid  rgb(10,211,239);;
+}
+
+.chiffredanscercle{
+   color: white;
+   font-size: 40px;
+   font-family: p2;
+}
+
+.qualityservice{
+   color: white;
+   font-family: p1;
+}
 
 
+/* --------------------fin section 3----------------------------------------- */
 
+@media screen and (max-width:576px) {
+   body{
+      width: 100%;
+      margin: 0;
+   }
+   header{
+      background-image: url(../../Assets/images/banner-overlay-img.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      /* background-color: red; */
+     
+   }
 
+   nav{
+      width: 100%;
+      height: 200px;
+      /* background-color:beige; */
+      flex-direction: column;
+      align-items: center;
+   }
 
+   .logonav{
+      height: 200px;
+      width: 100%;
+      /* background-color: red; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+   }
+   .recherche {
+      width: 100%;
+      height: 100px;
+      /* background-color: violet; */
+      display: flex;
+      gap: 5px;
+      align-items: center;
+      justify-content: center;
+   }
 
-
-
-
+   .logo1{
+      height: 200px;
+      width: 200px;
+      background-image: url(../../Assets/images/logo-img.png);
+   }
+   .titre1{
+      color:white;
+      font-size: 20px;
+      margin-bottom: 0;
+      font-family: p5;
+   }
+}
 
 
 
