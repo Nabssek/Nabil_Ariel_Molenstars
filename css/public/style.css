@@ -255,7 +255,7 @@ h1{
    /* background-color: yellow; */
    display: flex;
    flex-direction: column;
-   align-items: start;
+   
    justify-content: center;
 
 
@@ -277,13 +277,15 @@ h1{
 
 .parasectionfirst{
    color: #586baf;
+   /* margin-left: 20px; */
+  
+   
 }
 
 .liste{
    list-style-type: circle ;
-   margin-left: 0px;
    color: #586baf;
-   margin-top: 2px;
+   /* margin-top: 2px; */
 }
 
 ul{
@@ -362,6 +364,8 @@ display: flex;
    height: 40px;
    width: 25%;
    margin-left: 25px;
+   
+  
 }
 
 .titrecontenue{
@@ -371,9 +375,10 @@ display: flex;
    margin-top: 30px;
 }
 
-.parasectionfirst{
+.parasectionsecond{
    margin-left: 25px;
    margin-top: 5px;
+   color: #5972b5;
 }
 
 .buttonsectionsecond{
@@ -392,6 +397,28 @@ display: flex;
    color: white;
    border:0
 }
+
+.contenue:hover{
+   border: 2px solid rgb(10,211,239);
+   cursor: pointer;
+  
+}
+ 
+
+.contenue:hover .logocontenue{
+transform:translatey(-15px);
+transition: 1s;
+  
+}
+
+.button1sectionsecond:hover{
+  background-color:transparent;
+  
+   border: 2px solid rgb(10,211,239);
+
+
+}
+
 
 
 
