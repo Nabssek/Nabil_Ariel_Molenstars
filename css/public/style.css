@@ -369,8 +369,10 @@ ul{
    height: 650px;
    width: 100%;
    background-color: rgba(18,32,97,255);
-   background-image: url(../../Assets/images/image\ 2\ molenstar.png);
-   background-size: 100% 100%;
+   /* background-image: url(../../Assets/images/image\ 2\ molenstar.png);
+   background-size: 100% 100%; */
+   background-image: url(../../Assets/images/overly-background.png);
+   background-position: 80% 49%;
    background-repeat: no-repeat;
 display: flex;
    flex-direction: column;
@@ -1106,6 +1108,13 @@ border-radius: 22px;
 width: 28%;
 padding: 3%;
 }
+
+.section_4>.box>.right button:hover{
+   background-color:transparent;
+   
+    border: 0.1px solid rgb(10,211,239);
+
+ }
 /*--------section 5 -------*/
 
 
@@ -1186,6 +1195,7 @@ padding: 3%;
 }
 
 .section_5>.box>.bottom>.left_image{
+   position: relative;
    display: flex;
    justify-content: flex-end;
    flex-direction: column;
@@ -1220,6 +1230,181 @@ padding: 3%;
    flex-direction: column;
    padding-left: 3%;
 }
+
+
+
+/*---animation---*/
+
+.section_5>.box>.bottom>.left_image :hover{
+   color: rgb(10,211,239);
+}
+.section_5>.box>.bottom>.right_image :hover{
+   color: rgb(10,211,239);
+}
+
+/*---responsive---*/
+
+/*--laptop 1024px--*/
+@media (max-width:1024px) {
+
+   .section_5>.box>.bottom>.left_image {
+      /* background-color: antiquewhite; */
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: center;
+      padding-top: 4%;
+      width: 45%;
+   }
+   .section_5>.box>.bottom>.left_image p{
+      font-size: 85%;
+      /* background-color: red; */
+      display: flex;
+      vertical-align: top;
+   }
+   .section_5>.box>.bottom>.left_image h3{
+      /* background-color: red; */
+      font-size: 120%;
+   }
+   .section_5>.box>.bottom>.left_image h4{
+      /* background-color: red; */
+      font-size: 105%;
+   }
+   .section_5>.box>.bottom>.right_image {
+      /* background-color: antiquewhite; */
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: center;
+      padding-top: 4%;
+      width: 45%;
+   }
+   .section_5>.box>.bottom>.right_image p{
+      font-size: 85%;
+      /* background-color: red; */
+      display: flex;
+      vertical-align: top;
+   }
+   .section_5>.box>.bottom>.right_image h3{
+      /* background-color: red; */
+      font-size: 120%;
+   }
+   .section_5>.box>.bottom>.right_image h4{
+      /* background-color: red; */
+      font-size: 105%;
+   }
+}
+/*--tablet 768px--*/
+@media (max-width:768px) {
+
+   .section_5{
+      background-image: none;
+   }
+   .section_5>.box{
+      padding-top: 10%;
+      padding-bottom: 0;
+      margin-bottom: 0;
+      background-image: url(../../Assets/images/dots-left.png);
+      background-repeat: no-repeat;
+      background-position: -50px 60%;
+      background-size: 25%;
+   }
+
+   .section_5>.box>.bottom>.left_image {
+      /* background-color: antiquewhite; */
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: start;
+      padding-top: 23%;
+      width: 45%;
+   }
+   .section_5>.box>.bottom>.left_image p{
+      font-size: 70%;
+      /* background-color: red; */
+      display: flex;
+      vertical-align: top;
+   }
+   .section_5>.box>.bottom>.left_image h3{
+      /* background-color: red; */
+      font-size: 85%;
+   }
+   .section_5>.box>.bottom>.left_image h4{
+      /* background-color: red; */
+      font-size: 65%;
+   }
+   .section_5>.box>.bottom>.right_image {
+      /* background-color: antiquewhite; */
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: center;
+      padding-top: 4%;
+      width: 45%;
+   }
+   .section_5>.box>.bottom>.right_image p{
+      font-size: 85%;
+      /* background-color: red; */
+      display: flex;
+      vertical-align: top;
+   }
+   .section_5>.box>.bottom>.right_image h3{
+      /* background-color: red; */
+      font-size: 120%;
+   }
+   .section_5>.box>.bottom>.right_image h4{
+      /* background-color: red; */
+      font-size: 105%;
+   }
+   .section_5>.box>.bottom>.left_image {
+      /* background-color: antiquewhite; */
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: start;
+      padding-top: 23%;
+      width: 45%;
+   }
+   .section_5>.box>.bottom>.left_image p{
+      font-size: 70%;
+      /* background-color: red; */
+      display: flex;
+      vertical-align: top;
+   }
+   .section_5>.box>.bottom>.left_image h3{
+      /* background-color: red; */
+      font-size: 85%;
+   }
+   .section_5>.box>.bottom>.left_image h4{
+      /* background-color: red; */
+      font-size: 65%;
+   }
+   .section_5>.box>.bottom>.right_image {
+      /* background-color: antiquewhite; */
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: start;
+      padding-top: 23%;
+      width: 45%;
+   }
+   .section_5>.box>.bottom>.right_image p{
+      font-size: 70%;
+      /* background-color: red; */
+      display: flex;
+      vertical-align: top;
+   }
+   .section_5>.box>.bottom>.right_image h3{
+      /* background-color: red; */
+      font-size: 85%;
+   }
+   .section_5>.box>.bottom>.right_image h4{
+      /* background-color: red; */
+      font-size: 65%;
+   }
+
+}
+
 /*--------section 6-------*/
 
 .section_6{
@@ -1351,6 +1536,12 @@ padding: 3%;
    padding: 1.5%;
    margin-top: 7%;
 }
+.section_6>.box>.contact_form form>.form_row:last-child button:hover{
+   background-color:transparent;
+   
+    border: 0.1px solid rgb(10,211,239);
+
+ }
 
 /*----------------main end--------------------*/
 
@@ -1500,6 +1691,7 @@ footer>.resume_description>.box>.newsletter>.box_agree span{
    display: flex;
    text-align: center;
    align-items: center;
+   margin-left: 0;
 }
 
 footer>.resume_description>.box>.newsletter>.submit{
@@ -1513,14 +1705,19 @@ footer>.resume_description>.box>.newsletter>.submit button{
    position: absolute;
    right: 5px;
    top: 7px;
+   background-color: transparent;
 }
 input[type="email"]{
    height: 35px;
    color: none;
    opacity: 0.3;
+   background-color: transparent;
 }
 input[placeholder]{
-  opacity:0.1 ;
+  opacity:0.3 ;
+  color: white;
+  padding-left: 4%;
+  border-color: grey;
 }
 
 /*-----footer copyright----*/
@@ -1535,3 +1732,5 @@ footer >.copyright p {
    color: white;
    opacity: 0.4;
 }
+
+
