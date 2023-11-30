@@ -1,14 +1,10 @@
 @font-face{
-   font-family: p1;
-   src: url(../../Assets/fonts/RobotoRegular.ttf)
+   font-family: second;
+   src: url(../Assets/fonts/OswaldMedium.ttf)
 
 }
 
-@font-face{
-   font-family: p2;
-   src: url(../../Assets/fonts/OswaldMedium.ttf)
 
-}
 
 @font-face{
    font-family:p3;
@@ -66,8 +62,10 @@ nav{
    background-size: cover;
   background-repeat:no-repeat;
    align-items: center;
-   margin-top: 30px;
-   align-items: center;
+   /* background-color: red; */
+   margin-top: 15px;
+  
+   
    justify-content: end;
    
 }
