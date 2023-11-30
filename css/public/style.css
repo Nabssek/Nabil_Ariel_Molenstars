@@ -79,7 +79,7 @@ nav{
 }
 
 .recherche {
-   width: 65%;
+   width: 55%;
    height: 200px;
    /* background-color: violet; */
    display: flex;
@@ -105,42 +105,43 @@ nav{
 
 .enfant1{
    height: 300px;
-   margin-top: 500px;
+   
    width: 35%;
    /* background-color: yellow; */
    display: flex;
-   margin-top: 50px;
+   margin-top: 70px;
    flex-direction: column;
    /* align-items: center; */
-   justify-content: center;
+   justify-content: end
  
   
 }
 
 .enfant2{
-   height: 400px;
+   height: 500px;
    width: 43%;
-   /* background-color: green; */
+   
    display: flex;
-   flex-direction: column;
+   margin-right: 20px;
+  
    /* align-items: center; */
-   justify-content: center;
-   align-items:start;
+   
+   align-items:end
   
    
 }
 
 .logo2{
-   height: 600px;
-   width: 600px;
+   height: 400px;
+   width:550px;
    
 }
 
 .titre1{
    color:white;
-   font-size: 60px;
+   font-size: 50px;
    margin-bottom: 0;
-   font-family: p3;
+   font-family: p1;
 }
 
 .button2{
@@ -253,11 +254,22 @@ h1{
 }
 
 .cadreforicon:hover .icon{
-   margin-bottom: 20px;
-   background-image: white;
  
-   transition: 1s;
+   background-image: white;
+   filter: brightness(0) invert(1);
+   animation-name: deplacement;
+   animation-duration: 1s;
+   animation-fill-mode: forwards
 }
+
+@keyframes deplacement {
+  from{
+   margin-bottom: 30px;
+   animation-fill-mode: forwards
+  }
+   
+}
+
 
 
 .cadreforicon{
