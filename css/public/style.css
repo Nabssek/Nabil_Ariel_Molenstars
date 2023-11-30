@@ -950,7 +950,7 @@ footer >.copyright p {
 
 
 
-@media screen and (min-width: 375px) and (max-width: 575px) {
+@media screen and (max-width: 576px)  {
    .logo1{
      height: 100px;
      width: 100px;
