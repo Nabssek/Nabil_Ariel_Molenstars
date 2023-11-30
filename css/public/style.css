@@ -72,8 +72,8 @@ nav{
    width: 180px;
    background-image: url(../../Assets/images/logo-img.png);
    background-repeat: no-repeat;
-   margin-top: 20px;
-   
+   background-size:contain;
+   background-position:right
 
 }
 
