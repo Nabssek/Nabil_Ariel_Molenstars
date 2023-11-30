@@ -1,10 +1,14 @@
 @font-face{
-   font-family: second;
-   src: url(../Assets/fonts/OswaldMedium.ttf)
+   font-family: p1;
+   src: url(../../Assets/fonts/RobotoRegular.ttf)
 
 }
 
+@font-face{
+   font-family: p2;
+   src: url(../../Assets/fonts/OswaldMedium.ttf)
 
+}
 
 @font-face{
    font-family:p3;
@@ -24,6 +28,8 @@
    src: url(../../Assets/fonts/RobotoMedium.ttf)
 
 }
+
+
 
 
 
