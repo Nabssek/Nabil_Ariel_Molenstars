@@ -43,8 +43,8 @@ nav{
 }
 
 .logo1{
-   height: 160px;
-   width: 160px;
+   height: 150px;
+   width: 180px;
    background-image: url(../../Assets/images/logo-img.png);
    background-repeat: no-repeat;
    background-size:contain;
