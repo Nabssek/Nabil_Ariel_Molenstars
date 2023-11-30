@@ -259,15 +259,15 @@ h1{
    filter: brightness(0) invert(1);
    animation-name: deplacement;
    animation-duration: 1s;
-   animation-fill-mode: forwards
+   animation-fill-mode:forwards;
 }
 
 @keyframes deplacement {
+
   from{
-   margin-bottom: 30px;
-   animation-fill-mode: forwards
+   animation-fill-mode:both;
   }
-   
+
 }
 
 
