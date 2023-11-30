@@ -3,6 +3,8 @@
    src: url(../Assets/fonts/OswaldMedium.ttf)
 
 }
+
+
 body{
    margin:0px;
    padding: 0px;
@@ -36,8 +38,10 @@ nav{
    background-size: cover;
   background-repeat:no-repeat;
    align-items: center;
-   margin-top: 30px;
-   align-items: center;
+   /* background-color: red; */
+   margin-top: 15px;
+  
+   
    justify-content: end;
    
 }
