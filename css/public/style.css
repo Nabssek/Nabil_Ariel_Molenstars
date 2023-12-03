@@ -1770,8 +1770,9 @@ font-weight: bold;
 footer{
    width: 100%;
    background-image: url(../../Assets/images/overly-background.png);
-   background-position: 50% 47.2%;
+   background-position: 50% 50.7%;
    background-color: rgba(18,32,97,255);
+   font-family: p1;
 }
 
 /*-----footer resume description----*/
@@ -1784,7 +1785,7 @@ footer>.resume_description{
 footer>.resume_description>.box{
    width: 60%;
    display: flex;
-   margin-top: 6.5%;
+   margin-top: 4%;
    margin-bottom: 7%;
    /* background-color: bisque; */
 }
@@ -1809,10 +1810,10 @@ footer>.resume_description>.box>.logo img{
 }
 
 footer>.resume_description>.box>.logo p {
-   line-height: 160%;
-   font-size: 114%;
+   line-height: 190%;
+   font-size: 100%;
    color: white;
-   opacity: 0.3;
+   opacity: 0.4;
    margin-top: 8.5%;
    margin-bottom: 0;
    margin-left: 0;
@@ -1836,6 +1837,7 @@ footer>.resume_description>.box>.box>.about h1 {
    color: white;
    font-size: 145%;
    padding-left: 5%;
+   font-weight: normal;
 
 }
 footer>.resume_description>.box>.about a {
@@ -1843,9 +1845,9 @@ footer>.resume_description>.box>.about a {
    text-decoration: none;
 }
 footer>.resume_description>.box>.box>.about p>a{
-   font-size: 118%;
+   font-size: 105%;
    padding-left: 5%;
-   opacity: 0.3;
+   opacity: 0.4;
 }
 
 /*---- services side----*/
@@ -1860,26 +1862,29 @@ footer>.resume_description>.box>.services h1 {
    margin-bottom: 7%;
    color: white;
    font-size: 145%;
+   font-weight: normal;
 }
 address{
    font-style: normal;
    color: white;
-   opacity: 0.3;
-   font-size: 112%;
-   line-height: 150%;
+   opacity: 0.4;
+   font-size: 100%;
+   line-height: 175%;
+   margin-bottom: 0;
 }
 a[href^="tel:"] {
    color: white;
-   opacity: 0.3;
+   opacity: 0.4;
    text-decoration: none;
-   font-size: 112%;
+   font-size: 100%;
 
  }
 a[href^="mailto:"] {
    color: white;
-   opacity: 0.3;
+   opacity: 0.4;
    text-decoration: none;
-   font-size: 112%;
+   font-size: 100%;
+   margin-top: 0;
 
  }
 
@@ -1917,15 +1922,18 @@ footer>.resume_description>.box>.newsletter>.submit h1 {
    margin-bottom: 7%;
    color: white;
    font-size: 135%;
+   font-weight: normal;
 }
 
 footer>.resume_description>.box>.newsletter>.submit input[type="email"]{
    border-radius: 5px;
+   border: 2px white solid;
    height: 16.5%;
    width: 92.2%;
    font-size: 100%;
    padding-left: 8.5%;
    border: 2px solid white 0.4;
+   opacity: 0.1;
 }
 
 
@@ -1937,7 +1945,7 @@ footer>.resume_description>.box>.newsletter>.submit ::placeholder{
 }
 
 footer>.resume_description>.box>.newsletter>.submit>.box_agree input[type="checkbox"]{
-   border-style: solid;
+   /* border:  1px red solid; */
    border-width: 2px;
    /* border-color: green; */
    /* background-color: black; */
@@ -1945,12 +1953,14 @@ footer>.resume_description>.box>.newsletter>.submit>.box_agree input[type="check
    margin-left: 1%;
    margin-right: 0%;
    transform: scale(1.5);
+   /* background-color: transparent; */
 }
+
 
 footer>.resume_description>.box>.newsletter>.submit>.box_agree span{
    font-size: 95%;
    margin-left: 5%;
-   opacity: 0.3;
+   opacity: 0.4;
 }
 
 input[type="email"]{
@@ -2019,13 +2029,13 @@ footer >.copyright {
 footer >.copyright p {
    margin-top: 1.5%;
    margin-bottom: 1.5%;
-   font-family: p1;
+   
    font-size:90.5%;
    color: white;
-   opacity: 0.4;
+   opacity: 0.3;
+   font-weight: 100;
+   font-family: p1;
 }
-
-
 
 
 
@@ -2253,4 +2263,594 @@ footer >.copyright p {
       margin-right: 1000px;
       margin-left: 0px;
    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*responsive*/
+
+/*-----footer copyright----*/
+
+/*laptop 1024px*/
+
+@media (min-width:769px)  and (max-width:1024px){
+
+   footer{
+      background-position: 45% 58%;
+   }
+
+   
+   /*-----footer resume description----*/
+
+
+   /*----logo side----*/
+
+   
+   footer>.resume_description>.box>.logo p {
+      line-height: 190%;
+      font-size: 70%;
+   }
+   /*----about side----*/
+   
+   footer>.resume_description>.box>.box>.about h1 {
+      font-size: 115%;
+   }
+   footer>.resume_description>.box>.about a {
+      color: white;
+      text-decoration: none;
+   }
+   footer>.resume_description>.box>.box>.about p>a{
+      font-size: 75%;
+   }
+   
+   /*---- services side----*/
+   
+   footer>.resume_description>.box>.services h1 {
+      font-size: 115%;
+   }
+   address{
+      font-size: 70%;
+   }
+   a[href^="tel:"] {
+      font-size: 70%;
+    }
+   a[href^="mailto:"] {
+      font-size: 70%;
+    }
+   
+    footer>.resume_description>.box>.services>.list_logo img{
+      width: 65%;
+    }
+   
+   
+   /*---- newsletter side----*/
+   footer>.resume_description>.box>.newsletter>.submit h1 {
+      font-size: 105%;
+   }
+   
+   footer>.resume_description>.box>.newsletter>.submit input[type="email"]{
+      font-size: 70%;
+   }
+   
+   
+   footer>.resume_description>.box>.newsletter>.submit ::placeholder{
+   
+      /* background-color: aqua; */
+      color: white;
+      
+   }
+   
+   footer>.resume_description>.box>.newsletter>.submit>.box_agree input[type="checkbox"]{
+
+      transform: scale(1);
+   }
+   
+   
+   footer>.resume_description>.box>.newsletter>.submit>.box_agree span{
+      font-size: 65%;
+   }
+   
+   footer>.resume_description>.box>.newsletter span{
+      font-size: 25%;
+   }
+   
+   footer>.resume_description>.box>.newsletter>.submit button{
+      right: 1%;
+      top: 26%;
+  
+   }
+   
+   footer>.resume_description>.box>.newsletter>.submit button img{
+      /* background-color: red; */
+      width: 80%;
+   }
+
+   footer >.copyright p {
+   
+   font-size:70.5%;
+
+   }
+
+}
+
+/*tablet 768px*/
+
+@media (min-width:426px)  and (max-width:768px){
+
+   footer{
+      background-position: 45% 58%;
+   }
+
+   
+   /*-----footer resume description----*/
+
+
+   /*----logo side----*/
+
+   
+   footer>.resume_description>.box>.logo p {
+      font-size: 50%;
+   }
+   /*----about side----*/
+   
+   footer>.resume_description>.box>.box>.about h1 {
+      font-size: 85%;
+   }
+   footer>.resume_description>.box>.about a {
+      color: white;
+      text-decoration: none;
+   }
+   footer>.resume_description>.box>.box>.about p{
+      margin-bottom: 0;
+      margin-top: 0;
+   }
+   footer>.resume_description>.box>.box>.about p>a{
+      font-size: 45%;
+      line-height: 0%;
+      margin-bottom: 0;
+      margin-top: 0;
+   }
+   
+   /*---- services side----*/
+   
+   footer>.resume_description>.box>.services {
+      line-height: 65%;
+   }
+   footer>.resume_description>.box>.services h1 {
+      margin-top: 13%;
+      font-size: 85%;
+      margin-bottom: 23%;
+   }
+   address{
+      font-size: 40%;
+   }
+   a[href^="tel:"] {
+      font-size: 40%;
+    }
+   a[href^="mailto:"] {
+      font-size: 40%;
+    }
+   
+    footer>.resume_description>.box>.services>.list_logo img{
+      width: 45%;
+    }
+   
+   
+   /*---- newsletter side----*/
+   footer>.resume_description>.box>.newsletter>.submit h1 {
+      font-size: 75%;
+   }
+   
+   footer>.resume_description>.box>.newsletter>.submit input[type="email"]{
+      font-size: 40%;
+   }
+   
+   
+   footer>.resume_description>.box>.newsletter>.submit ::placeholder{
+   
+      /* background-color: aqua; */
+      color: white;
+      
+   }
+   
+   footer>.resume_description>.box>.newsletter>.submit>.box_agree input[type="checkbox"]{
+
+      transform: scale(0.8);
+   }
+   
+   
+   footer>.resume_description>.box>.newsletter>.submit>.box_agree span{
+      font-size: 45%;
+   }
+   
+   footer>.resume_description>.box>.newsletter span{
+      font-size: 25%;
+   }
+   
+   footer>.resume_description>.box>.newsletter>.submit button{
+      right: 0%;
+      top: 25%;
+  
+   }
+   
+   footer>.resume_description>.box>.newsletter>.submit button img{
+      /* background-color: red; */
+      width: 65%;
+   }
+
+   footer >.copyright p {
+   
+   font-size:70.5%;
+
+   }
+
+}
+
+/*mobil l 425px*/
+
+@media (min-width:376px)  and (max-width:425px){
+
+   footer{
+      background-position: 40% 60%;
+   }
+
+   
+   /*-----footer resume description----*/
+
+
+   /*----logo side----*/
+
+   
+   footer>.resume_description>.box>.logo p {
+      font-size: 20%;
+   }
+   /*----about side----*/
+   
+   footer>.resume_description>.box>.box>.about h1 {
+      font-size: 55%;
+   }
+   footer>.resume_description>.box>.about a {
+      color: white;
+      text-decoration: none;
+   }
+   footer>.resume_description>.box>.box>.about p{
+      margin-bottom: 0;
+      margin-top: 0;
+   }
+   footer>.resume_description>.box>.box>.about p>a{
+      font-size: 25%;
+      line-height: 0%;
+      margin-bottom: 0;
+      margin-top: 0;
+   }
+   
+   /*---- services side----*/
+   
+   footer>.resume_description>.box>.services {
+      line-height: 65%;
+   }
+   footer>.resume_description>.box>.services h1 {
+      margin-top: 13%;
+      font-size: 55%;
+      margin-bottom: 29%;
+   }
+   address{
+      font-size: 40%;
+      margin-bottom: 0;
+   }
+   a[href^="tel:"] {
+      margin-top: 0;
+      font-size: 40%;
+      margin-bottom: 0;
+    }
+   a[href^="mailto:"] {
+      font-size: 40%;
+    }
+   
+    footer>.resume_description>.box>.services>.list_logo img{
+      width: 55%;
+    }
+   
+   
+   /*---- newsletter side----*/
+   footer>.resume_description>.box>.newsletter>.submit h1 {
+      font-size: 45%;
+   }
+   
+   footer>.resume_description>.box>.newsletter>.submit input[type="email"]{
+      font-size: 5px;
+      width: 85%;
+      /* padding: 0; */
+   }
+   
+   
+   footer>.resume_description>.box>.newsletter>.submit ::placeholder{
+   
+      /* background-color: aqua; */
+      color: white;
+      
+   }
+   
+   footer>.resume_description>.box>.newsletter>.submit>.box_agree input[type="checkbox"]{
+
+      transform: scale(0.5);
+   }
+   
+   
+   footer>.resume_description>.box>.newsletter>.submit>.box_agree span{
+      font-size: 3px;
+      bottom: 40%;
+   }
+   
+   footer>.resume_description>.box>.newsletter span{
+      font-size: 2px;
+   }
+   
+   footer>.resume_description>.box>.newsletter>.submit button{
+      right: -10%;
+      top: 18%;
+  
+   }
+   
+   footer>.resume_description>.box>.newsletter>.submit button img{
+      /* background-color: red; */
+      width: 40%;
+   }
+
+   footer >.copyright p {
+   
+   font-size:30.5%;
+
+   }
+
+}
+
+/*mobil m 375px*/
+
+@media (min-width:321px)  and (max-width:375px){
+
+   footer{
+      background-position: 40% 61.5%;
+      
+   }
+
+   
+   /*-----footer resume description----*/
+
+
+   /*----logo side----*/
+
+   
+   footer>.resume_description>.box>.logo p {
+      font-size: 20%;
+   }
+   /*----about side----*/
+   
+   footer>.resume_description>.box>.box>.about h1 {
+      font-size: 55%;
+   }
+   footer>.resume_description>.box>.about a {
+      color: white;
+      text-decoration: none;
+   }
+   footer>.resume_description>.box>.box>.about p{
+      margin-bottom: 0;
+      margin-top: 0;
+   }
+   footer>.resume_description>.box>.box>.about p>a{
+      font-size: 25%;
+      line-height: 0%;
+      margin-bottom: 0;
+      margin-top: 0;
+   }
+   
+   /*---- services side----*/
+   
+   footer>.resume_description>.box>.services {
+      line-height: 65%;
+   }
+   footer>.resume_description>.box>.services h1 {
+      margin-top: 13%;
+      font-size: 55%;
+      margin-bottom: 29%;
+   }
+   address{
+      font-size: 40%;
+      margin-bottom: 0;
+   }
+   a[href^="tel:"] {
+      margin-top: 0;
+      font-size: 40%;
+      margin-bottom: 0;
+    }
+   a[href^="mailto:"] {
+      font-size: 40%;
+    }
+   
+    footer>.resume_description>.box>.services>.list_logo img{
+      width: 55%;
+    }
+   
+   
+   /*---- newsletter side----*/
+   footer>.resume_description>.box>.newsletter>.submit h1 {
+      font-size: 45%;
+   }
+   
+   footer>.resume_description>.box>.newsletter>.submit input[type="email"]{
+      font-size: 5px;
+      width: 85%;
+      /* padding: 0; */
+   }
+   
+   
+   footer>.resume_description>.box>.newsletter>.submit ::placeholder{
+   
+      /* background-color: aqua; */
+      color: white;
+      
+   }
+   
+   footer>.resume_description>.box>.newsletter>.submit>.box_agree input[type="checkbox"]{
+
+      transform: scale(0.5);
+   }
+   
+   
+   footer>.resume_description>.box>.newsletter>.submit>.box_agree span{
+      font-size: 3px;
+      bottom: 40%;
+   }
+   
+   footer>.resume_description>.box>.newsletter span{
+      font-size: 2px;
+   }
+   
+   footer>.resume_description>.box>.newsletter>.submit button{
+      right: -10%;
+      top: 18%;
+  
+   }
+   
+   footer>.resume_description>.box>.newsletter>.submit button img{
+      /* background-color: red; */
+      width: 40%;
+   }
+
+   footer >.copyright p {
+   
+   font-size:30.5%;
+
+   }
+
 }
