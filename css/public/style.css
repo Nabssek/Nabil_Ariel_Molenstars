@@ -1107,12 +1107,13 @@ transform: rotate(180deg);
    background-position: 80% 49%;
    background-color: rgba(18,32,97,255);
    padding-bottom: 6.5%;
-   padding-top: 5%;
+   padding-top: 7%;
 }
 .section_4>.box{
    display: flex;
-   width: 61%;
+   width: 60%;
    /* background-color: aquamarine ; */
+   margin-left: 1%;
 }
 
 /*-----left-----*/
@@ -1124,11 +1125,16 @@ transform: rotate(180deg);
 
 }
 
-.section_4>.box>.left>.list_logos{
+.section_4>.box>.left > .box2{
+   /* background-color: brown; */
+   width: 97%;
+}
+
+.section_4>.box>.left> .box2 > .list_logos{
         display: grid;
           grid-template-rows: repeat(2, 1fr);
           grid-template-columns: repeat(2, 1fr);
-          /* gap: 1%; */
+          gap: 6% 1.5%;
           margin-bottom: 0%;
           width: 105%;
           height: 100%;
@@ -1139,143 +1145,86 @@ transform: rotate(180deg);
    flex-direction: row;
 }
 
-.box_stat{
+.section_4>.box>.left> .box2 > .list_logos >.box_stat {
    display: flex;
    justify-content: center;
    align-items: center;
-   background-color: rgba(23,37,110,255);
+   background-color: rgba(23, 37, 110, 255);
    border-radius: 8%;
-   width: 80%;
+   width: 77%; 
    flex-direction: column;
+   padding: 7.5%; 
 }
-.box_stat span{
+
+.section_4>.box>.left> .box2 > .list_logos >.box_stat img{
+   width: 28%;
+}
+
+
+.section_4>.box>.left> .box2 > .list_logos >.box_stat h2{
+
+   font-size: 235%;
+   margin-bottom: 2%;
+   margin-top: 8%;
+}
+.section_4>.box>.left> .box2 > .list_logos >.box_stat span {
    color: white;
-   opacity: 0.3;
-   font-size: 100%;
+   font-size: 125%;
+   opacity: 0.5;
+   margin-bottom: 8.5%;
 }
-.box_stat h2{
-   font-size: 175%;
+
+.section_4>.box>.left> .box2 > .list_logos >.box_stat:last-of-type{
+   padding-top: 6.5%;
 }
-.box_stat img{
+
+
+.section_4>.box>.left> .box2 > .list_logos >.box_stat:nth-of-type(2) img{
    width: 25%;
-   padding-left: 15%;
 }
-.section_4>.box>.left>.list_logos>.box_stat:first-of-type{
-   /* background-color: aqua; */
-   /* background-image: url(../../Assets/images/Cyber-Security-left-card-img1.png);
-   background-repeat: no-repeat;
-   background-position: center; */
-   display: flex;
-   height: 98%;
-   width: 80%;
-   padding-right: 10%;
+.section_4>.box>.left> .box2 > .list_logos >.box_stat:nth-of-type(3) img{
+   width: 30%;
 }
-.section_4>.box>.left>.list_logos>.box_stat:first-of-type h2,span{
-   margin-left: 15%;
+.section_4>.box>.left> .box2 > .list_logos >.box_stat:last-of-type img{
+   width: 26%
+}
+.section_4>.box>.left> .box2 > .list_logos >.box_stat:last-of-type :last-of-type span{
+   font-size: 55%;
+   padding-left: 0;
 }
 
-.section_4>.box>.left>.list_logos>.box_stat:first-of-type h2{
-   /* background-color: aqua; */
-   margin-bottom: 5%;
-   margin-top: 7%;
-}
-.section_4>.box>.left>.list_logos>.box_stat:nth-of-type(2){
-   /* background-color: aqua; */
-   /* background-image: url(../../Assets/images/Cyber-Security-left-card-img2.png);
-   background-repeat: no-repeat;
-   background-position: center; */
-   display: flex;
-   height: 98%;
-   width: 85%;
-   margin-left: -4%;
-}
-.section_4>.box>.left>.list_logos>.box_stat:nth-of-type(2) h2{
-   /* background-color: aqua; */
-   margin-bottom: 5%;
-   margin-top: 7%;
-}
-.section_4>.box>.left>.list_logos>.box_stat:nth-of-type(2) span{
-   margin-left: 2%;
-}
-.section_4>.box>.left>.list_logos>.box_stat:nth-of-type(2) img{
-   /* background-color: aquamine; */
-   padding-left: 2%;
-   width: 20%;
-}
 
-.section_4>.box>.left>.list_logos>.box_stat:nth-of-type(3){
-   /* background-color: aqua; */
-   /* background-image: url(../../Assets/images/Cyber-Security-left-card-img3.png);
-   background-repeat: no-repeat;
-   background-position: center; */
-   display: flex;
-   height: 98%;
-   width: 80%;
-   padding-right: 10%;
-   margin-top: 2%;
-}
-
-.section_4>.box>.left>.list_logos>.box_stat:nth-of-type(3) h2{
-   /* background-color: aqua; */
-   margin-bottom: 5%;
-   margin-left: 15%;
-   margin-top: 7%;
-}
-.section_4>.box>.left>.list_logos>.box_stat:nth-of-type(4){
-   /* background-color: aqua; */
-   /* background-image: url(../../Assets/images/Cyber-Security-left-card-img4.png);
-   background-repeat: no-repeat;
-   background-position: center; */
-   display: flex;
-   height: 98%;
-   width: 85%;
-   margin-left: -4%;
-   margin-top: 2%;
-}
-
-.section_4>.box>.left>.list_logos>.box_stat:nth-of-type(4) h2{
-    /* background-color: aqua; */
-    margin-bottom: 5%;
-    margin-top: 7%;
-    display: flex;
-}
-.section_4>.box>.left>.list_logos>.box_stat:nth-of-type(4) img{
-   /* background-color: aquamine; */
-   padding-left: 2%;
-   width: 20%;
-}
-.section_4>.box>.left>.list_logos>.box_stat:nth-of-type(4) span{
-   margin-left: 2%;
-}
-.section_4>.box>.left>.list_logos>.box_stat:nth-of-type(4) span:first-child{
-   /* background-color: brown; */
-   color: white;
-   opacity: 1;
-   font-size: 60%;
-   margin-left: 15%;
-}
 /*------right-----*/
 .section_4>.box>.right{
    width: 50%;
    /* background-color: peru; */
    padding-bottom: 4.5%;
+   justify-content: end;
+   display: flex;
+}
+.section_4>.box>.right > .box2 {
+   /* background-color: aqua; */
+   width: 96.5%;
 }
 
 .section_4>.box>.right h4{
    color: rgba(50,158,203,255);
    margin-bottom: 2%;
+   font-size: 145%;
 }
 .section_4>.box>.right h2{
    margin-top: 0;
    margin-bottom: 2%;
-   font-size: 250%;
+   font-size: 320%;
 }
 
 .section_4>.box>.right p {
    color: white;
    opacity: 0.5;
    margin-top: 3%;
-   margin-bottom: 7%;
+   margin-bottom: 8%;
+   font-size: 129.5%;
+   line-height: 165%;
 }
 
 .section_4>.box>.right button{
@@ -1283,9 +1232,10 @@ background-color: rgba(8,211,238,255);
 color: white;
 font-weight: bold;
 border: 0;
-border-radius: 22px;
-width: 28%;
+border-radius: 25px;
+width: 33%;
 padding: 3%;
+font-size: 110%;
 }
 
 .section_4>.box>.right button:hover{
