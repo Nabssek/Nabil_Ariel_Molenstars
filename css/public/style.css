@@ -1156,7 +1156,7 @@ padding: 3%;
 }
 
 .section_5>.box{
-   width: 61%;
+   width: 60%;
    display: flex;
    flex-direction: column;
    /* background-color: aqua; */
@@ -1168,84 +1168,135 @@ padding: 3%;
    flex-direction: column;
    /* background-color: bisque; */
    text-align: center;
+   margin-bottom: 1%;
 }
 
 .section_5>.box>.top h4{
    margin-top: 0;
+   padding-top: 0;
    margin-bottom: 1%;
    color: rgba(50,158,203,255);
+   font-size: 130%;
+   
 }
 .section_5>.box>.top h2{
    margin-top: 0;
    margin-bottom: 2%;
-   font-size: 250%;
+   font-size: 320%;
 }
-
 
 /*---bottom---*/
 
-.section_5>.box>.bottom{
-   width: 100%;
-   display: flex;
-   /* background-color: bisque; */
-   justify-content: space-between;
-}
-
-.section_5>.box>.bottom>.left_image{
-   /* background-color: aqua; */
-   width: 52%;
-   height:400px;
-   background-image: url(../../Assets/images/blog-post-img1.png);
-   background-repeat: no-repeat;
-   background-size: contain;
-}
-.section_5>.box>.bottom>.right_image{
-   width: 50%;
-   height:400px;
-   background-image: url(../../Assets/images/blog-post-img2.png);
-   background-repeat: no-repeat;
-   background-size: contain;
-}
-
-.section_5>.box>.bottom img{
-   width: 49%;
-}
-
-.section_5>.box>.bottom>.left_image{
-   position: relative;
-   display: flex;
-   justify-content: flex-end;
-   flex-direction: column;
-   padding-left: 3%;
-}
 .section_5>.box>.bottom p, h3, a{
    color: white;
    text-decoration: none;
 }
-.section_5>.box>.bottom p{
-   opacity: 0.5;
-
+.section_5>.box>.bottom  a{
+   color: white;
+   text-decoration: none;
+   font-size: 105%;
 }
-
-.section_5>.box>.bottom h3{
-   font-size: 135%;
+.section_5>.box>.bottom  h3{
+   color: white;
+   text-decoration: none;
+   font-size: 158%;
+   margin-top: 3%;
+   margin-bottom: 3%;
+}
+.section_5>.box>.bottom  p{
    margin-bottom: 0;
-   margin-top: 0;
+   opacity: 0.5;
 }
+
+
+
 .section_5>.box>.bottom a{
    opacity: 0.9;
 }
 .section_5>.box>.bottom h4{
    margin-top: 4%;
-   margin-bottom: 8%;
+   margin-bottom: 7%;
+}
+
+/* .section_5 > .box > .bottom > .left_image > .card > .texte,
+.section_5 > .box > .bottom > .right_image > .card > .texte h3{
+
+   font-size: 125%;
+} */
+.section_5 > .box > .bottom > .left_image > .card > .texte,
+.section_5 > .box > .bottom > .right_image > .card > .texte h4{
+
+   font-size: 115%;
+}
+.section_5 > .box > .bottom > .left_image > .card > .texte,
+.section_5 > .box > .bottom > .right_image > .card > .texte p{
+
+   margin: 0;
 }
 
 
-.section_5>.box>.bottom>.right_image{
+
+.section_5 > .box > .bottom {
+   width: 100%;
    display: flex;
-   justify-content: flex-end;
-   flex-direction: column;
-   padding-left: 3%;
+   /* background-color: bisque; */
+}
+
+.section_5 > .box > .bottom > .left_image,
+.section_5 > .box > .bottom > .right_image {
+    flex: 1; 
+}
+
+.section_5 > .box > .bottom > .left_image {
+    margin-right: 1%; 
+}
+
+.section_5 > .box > .bottom > .right_image {
+    margin-left: 1%; 
+}
+
+
+.section_5 > .box > .bottom > .left_image > .card,
+.section_5 > .box > .bottom > .right_image > .card {
+   position: relative;
+   width: 100%;
+   /* background-color: brown; */
+   overflow: hidden; 
+   border-radius: 10px;
+
+}
+
+.section_5 > .box > .bottom > .left_image > .card img,
+.section_5 > .box > .bottom > .right_image > .card img {
+   width: 100%;
+   height: auto;
+   display: block;
+}
+
+.section_5 > .box > .bottom > .left_image > .card > .texte,
+.section_5 > .box > .bottom > .right_image > .card > .texte {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   padding: 15px;
+   box-sizing: border-box;
+   /* background-color: rgba(0, 0, 0, 0.7); */
+   color: white;
+   transition: opacity 0.3s ease-in-out;
+   padding-left: 7%;
+}
+
+.section_5 > .box > .bottom > .left_image:hover > .card > .texte,
+.section_5 > .box > .bottom > .right_image:hover > .card > .texte {
+   opacity: 1;
+}
+
+.section_5 > .box > .bottom > .left_image:hover > .card img,
+.section_5 > .box > .bottom > .right_image:hover > .card img {
+    transform: scale(1.1) rotate(3deg);
+    transition: 1s;
+    border-radius: 10px;
 }
 
 
