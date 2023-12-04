@@ -3470,3 +3470,70 @@ font-size: 5px;
 }
 }
 
+/*mobil m 375px*/
+
+@media (min-width:321px)  and (max-width:375px) {
+   /*--------section 4 -------*/
+
+.section_4{
+   background-position: 40% 61.5%;;
+}
+
+/*-----left-----*/
+
+
+.section_4>.box>.left> .box2 > .list_logos >.box_stat img{
+   width: 25%;
+}
+
+
+.section_4>.box>.left> .box2 > .list_logos >.box_stat h2{
+
+   font-size: 25%;
+   /* margin-bottom: 2%;
+   margin-top: 8%; */
+}
+.section_4>.box>.left> .box2 > .list_logos >.box_stat span {
+   font-size: 4px;
+
+}
+
+.section_4>.box>.left> .box2 > .list_logos >.box_stat:last-of-type{
+   padding-top: 6.5%;
+}
+
+
+.section_4>.box>.left> .box2 > .list_logos >.box_stat:nth-of-type(2) img{
+   width: 25%;
+}
+.section_4>.box>.left> .box2 > .list_logos >.box_stat:nth-of-type(3) img{
+   width: 30%;
+}
+.section_4>.box>.left> .box2 > .list_logos >.box_stat:last-of-type img{
+   width: 26%
+}
+.section_4>.box>.left> .box2 > .list_logos >.box_stat:last-of-type :last-of-type span{
+   font-size: 55%;
+   padding-left: 0;
+}
+
+
+/*------right-----*/
+
+
+.section_4>.box>.right h4{
+   font-size: 15%;
+}
+.section_4>.box>.right h2{
+   font-size: 50%;
+}
+
+.section_4>.box>.right p {
+   font-size: 4px;
+   /* line-height: 165%; */
+}
+
+.section_4>.box>.right button{
+font-size: 4px;
+}
+}
