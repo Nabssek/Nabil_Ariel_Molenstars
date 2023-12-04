@@ -561,7 +561,7 @@ transform: rotate(180deg);
 }
 
 .horsecran{
-   position: relative;
+   position:relative;
    left: 322px;
    bottom: 254px;
    border-radius: 10px;
@@ -1867,7 +1867,7 @@ footer >.copyright p {
    }
    
    .section_first{
-      height: 1400px;
+      height: 1300px;
       /* background-color: yellow; */
       gap: 0px;
      
@@ -1886,7 +1886,8 @@ footer >.copyright p {
    .imagesectionfirst{
       /* background-color: aqua; */
       width: 100%;
-      
+      display: flex;
+      justify-content: center;
       height: 300px;
    }
    .textesectionfirst{
@@ -1937,7 +1938,7 @@ footer >.copyright p {
    }
 
    .section_third{
-      height: 10000px;
+      height: 1200px;
       flex-direction: column;
       justify-content: flex-start;
       align-items: center;
@@ -1966,15 +1967,835 @@ footer >.copyright p {
    }
 
    .thirddivsectionthird{
-      background-color: yellow;
+      /* background-color: yellow; */
+      margin-top: 50px;
       width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items:flex-end;
+      justify-content: end;
    }
 
    .horsecran{
-      position:relative;
-      background-color: violet;
-      height: 150px;
-      width: 100%;
+      height: 300px;
+      width: 200px;
+      z-index: 1;
+      margin-right: 320px;
+      margin-top: 62px;
+      
       
    }
+
+   .servicebox{
+      height: 30px;
+      width: 30px;
+   }
+   .titrehorsecran{
+      font-size: 10px;
+   }
+
+   .parahorsecran{
+      font-size: 10px;
+   }
+
+   .lienhorsecran{
+      font-size: 10px;
+   }
+}
+
+@media screen and (min-width: 576px) and (max-width: 800px){
+   .logo1{
+      height: 80px;
+      width: 80px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+ 
+    .logonav{
+       /* background-color: red; */
+       width: 100%;
+       display: flex;
+       justify-content: center;
+    }
+ 
+    
+    .recherche{
+      
+       display: flex;
+       gap: 10px;
+       width: 80%;
+       justify-content: center;
+    }
+    .navp{
+       font-size: 10px;
+    }
+    .button1{
+       width: 30%;
+       
+    }
+    .contenue1header{
+       
+       height: 600px;
+       /* background-color: red; */
+       display: flex;
+       flex-direction: column;
+       align-items:center;
+       justify-content: flex-start;
+       
+       
+    }
+ 
+    header{
+       height: 750px;
+    }
+ 
+    nav{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+ 
+    .titre1{
+       font-size: 25px;
+       margin-top: 0px;
+    }
+    .para{
+       font-size: 15px;
+    }
+    .enfant1{
+       /* background-color: green; */
+       width: 70%;
+       height: 220px;
+       margin-top: 0px;
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       justify-content: flex-start;
+       margin-top: 10px;
+ 
+       
+    }
+ 
+    .enfant2{
+       /* background-color: violet; */
+       width: 100%;
+       height: 320px;
+       margin-right: 0px;
+       justify-content: center;
+       align-items: flex-start;
+    }
+ 
+    .logo2{
+       width: 80%;
+       height: 250px;
+       margin-top: 20px;
+ 
+    }
+ 
+    .button2{
+       width: 70%;
+    }
+ 
+    .button3{
+       width: 70%;
+    }
+ 
+    .button{
+       display: flex;
+       gap: 10px;
+       width: 70%;
+    }
+ 
+    
+    .seconddiv{
+       display: flex;
+       flex-direction: column;
+       /* background-color: yellow; */
+       align-items: center;
+       height: 10000px;
+       
+    }
+    
+    .section_first{
+       height: 1300px;
+       /* background-color: yellow; */
+       gap: 0px;
+      
+    }
+ 
+    .logosectionfirst{
+       /* background-color: red; */
+       height: 300px;
+       margin-bottom: 0px;
+    }
+ 
+    .imagesectionfirst1{
+       height: 300px;
+       width: 400px;
+    }
+    .imagesectionfirst{
+       /* background-color: aqua; */
+       width: 100%;
+       display: flex;
+       justify-content: center;
+       height: 300px;
+    }
+    .textesectionfirst{
+       /* background-color: violet; */
+       width: 100%;
+       align-items: flex-start;
+       justify-content: flex-start;
+    }
+ 
+    .section_second{
+       height: 1600px;
+       display: flex;
+       flex-direction: column;
+    }
+ 
+    .titresectionsecond{
+       /* background-color: red; */
+       margin-top: 50px;
+       width: 100%;
+       justify-content: flex-start;
+       margin-top: 0px;
+    }
+ 
+    .h1sectionfirst{
+       font-size: 25px;
+    }
+ 
+    .section_second{
+       /* background-color: yellow; */
+       gap: 0px;
+       height: 1450px;
+    }
+ 
+    .boxcontenue{
+       /* background-color: aqua; */
+       flex-wrap: wrap;
+       height: 1250px;
+       margin-top: 0px;
+    }
+ 
+    .contenue{
+       width: 50%;
+    }
+ 
+    .button1sectionsecond{
+       margin-top: 10px;
+       width: 40%;
+    }
+ 
+    .section_third{
+       height: 1500px;
+       flex-direction: column;
+       justify-content: flex-start;
+       align-items: center;
+    }
+   
+    .firstdivsectionthird{
+       /* background-color: red; */
+       width: 100%;
+       height: 0px;
+    }
+ 
+    .seconddivsectionthird{
+       /* background-color: aqua; */
+       width: 100%;
+       height: 600px;
+       justify-content: flex-start;
+    }
+ 
+    .imagefirstsectionthird{
+       height: 0px;
+       width: 0px;
+    }
+ 
+    .enfant1seconddiv{
+       margin-top: 50px;
+    }
+ 
+    .thirddivsectionthird{
+       /* background-color: yellow; */
+       margin-top: 50px;
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       align-items:flex-end;
+       justify-content: end;
+    }
+ 
+    .horsecran{
+       height: 300px;
+       width: 200px;
+       z-index: 1;
+       margin-right: 320px;
+       margin-top: 62px;
+       
+       
+    }
+ 
+    .servicebox{
+       height: 30px;
+       width: 30px;
+    }
+    .titrehorsecran{
+       font-size: 10px;
+    }
+ 
+    .parahorsecran{
+       font-size: 10px;
+    }
+ 
+    .lienhorsecran{
+       font-size: 10px;
+    }
+
+
+}
+
+@media screen and (min-width: 801px) and (max-width: 1000px){
+   .logo1{
+      height: 80px;
+      width: 80px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+ 
+    .logonav{
+       /* background-color: red; */
+       width: 100%;
+       display: flex;
+       justify-content: center;
+    }
+ 
+    
+    .recherche{
+      
+       display: flex;
+       gap: 10px;
+       width: 80%;
+       justify-content: center;
+    }
+    .navp{
+       font-size: 10px;
+    }
+    .button1{
+       width: 30%;
+       
+    }
+    .contenue1header{
+       
+       height: 600px;
+       /* background-color: red; */
+       display: flex;
+       flex-direction: column;
+       align-items:center;
+       justify-content: flex-start;
+       
+       
+    }
+ 
+    header{
+       height: 750px;
+    }
+ 
+    nav{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+ 
+    .titre1{
+       font-size: 25px;
+       margin-top: 0px;
+    }
+    .para{
+       font-size: 15px;
+    }
+    .enfant1{
+       /* background-color: green; */
+       width: 70%;
+       height: 220px;
+       margin-top: 0px;
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       justify-content: flex-start;
+       margin-top: 10px;
+ 
+       
+    }
+ 
+    .enfant2{
+       /* background-color: violet; */
+       width: 100%;
+       height: 320px;
+       margin-right: 0px;
+       justify-content: center;
+       align-items: flex-start;
+    }
+ 
+    .logo2{
+       width: 50%;
+       height: 300px;
+       margin-top: 0px;
+ 
+    }
+ 
+    .button2{
+       width: 70%;
+    }
+ 
+    .button3{
+       width: 70%;
+    }
+ 
+    .button{
+       display: flex;
+       gap: 10px;
+       width: 70%;
+    }
+ 
+    
+    .seconddiv{
+       display: flex;
+       flex-direction: column;
+       /* background-color: yellow; */
+       align-items: center;
+       height: 10000px;
+       
+    }
+    
+    .section_first{
+       height: 1300px;
+       /* background-color: yellow; */
+       gap: 0px;
+       align-items: center;
+       
+      
+    }
+ 
+    .logosectionfirst{
+       background-color: red;
+       height: 300px;
+       width: 60%;
+       margin-bottom: 0px;
+    }
+ 
+    .imagesectionfirst1{
+       height: 300px;
+       width: 400px;
+    }
+    .imagesectionfirst{
+       /* background-color: aqua; */
+       width: 100%;
+       display: flex;
+       justify-content: center;
+       height: 300px;
+    }
+    .textesectionfirst{
+       /* background-color: violet; */
+       width: 100%;
+       align-items: flex-start;
+       justify-content: flex-start;
+    }
+ 
+    .section_second{
+       height: 1600px;
+       display: flex;
+       flex-direction: column;
+    }
+ 
+    .titresectionsecond{
+       /* background-color: red; */
+       margin-top: 50px;
+       width: 100%;
+       justify-content: flex-start;
+       margin-top: 0px;
+    }
+ 
+    .h1sectionfirst{
+       font-size: 25px;
+    }
+ 
+    .section_second{
+       /* background-color: yellow; */
+       gap: 0px;
+       height: 1450px;
+    }
+ 
+    .boxcontenue{
+       /* background-color: aqua; */
+       flex-wrap: wrap;
+       height: 1250px;
+       /* background-color: red; */
+       margin-top: 0px;
+       width: 70%;
+    }
+ 
+    .contenue{
+       width: 50%;
+    }
+ 
+    .button1sectionsecond{
+       margin-top: 10px;
+       width: 40%;
+    }
+ 
+    .section_third{
+       height: 1500px;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+      /* background-color: yellow; */
+    }
+   
+    .firstdivsectionthird{
+       /* background-color: red; */
+       width: 100%;
+       height: 0px;
+    }
+ 
+    .seconddivsectionthird{
+       /* background-color: aqua; */
+       width: 100%;
+       height: 600px;
+       justify-content: flex-start;
+    }
+ 
+    .imagefirstsectionthird{
+       height: 0px;
+       width: 0px;
+    }
+ 
+    .enfant1seconddiv{
+       margin-top: 50px;
+    }
+
+    .enfant2seconddiv{
+      /* background-color: red; */
+      width: 100%;
+      display: flex;
+      justify-content: center;
+     
+   }
+
+   .cercle{
+      height: 200px;
+      width: 200px;
+   }
+ 
+    .thirddivsectionthird{
+       /* background-color: yellow; */
+       margin-top: 50px;
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       align-items:flex-end;
+       justify-content: end;
+    }
+ 
+    .horsecran{
+       height: 300px;
+       width: 200px;
+       z-index: 1;
+       margin-right: 320px;
+       margin-top: 62px;
+       
+       
+    }
+ 
+    .servicebox{
+       height: 30px;
+       width: 30px;
+    }
+    .titrehorsecran{
+       font-size: 10px;
+    }
+ 
+    .parahorsecran{
+       font-size: 10px;
+    }
+ 
+    .lienhorsecran{
+       font-size: 10px;
+    }
+
+   
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1300px){
+   .logo1{
+      height: 80px;
+      width: 80px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+ 
+    .logonav{
+       /* background-color: red; */
+       width: 100%;
+       display: flex;
+       justify-content: center;
+    }
+ 
+    
+    .recherche{
+      
+       display: flex;
+       gap: 10px;
+       width: 80%;
+       justify-content: center;
+    }
+    .navp{
+       font-size: 10px;
+    }
+    .button1{
+       width: 30%;
+       
+    }
+    .contenue1header{
+       
+       height: 600px;
+       /* background-color: red; */
+       display: flex;
+       flex-direction: column;
+       align-items:center;
+       justify-content: flex-start;
+       
+       
+    }
+ 
+    header{
+       height: 750px;
+    }
+ 
+    nav{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+ 
+    .titre1{
+       font-size: 25px;
+       margin-top: 0px;
+    }
+    .para{
+       font-size: 15px;
+    }
+    .enfant1{
+       /* background-color: green; */
+       width: 70%;
+       height: 220px;
+       margin-top: 0px;
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       justify-content: flex-start;
+       margin-top: 10px;
+ 
+       
+    }
+ 
+    .enfant2{
+       /* background-color: violet; */
+       width: 100%;
+       height: 320px;
+       margin-right: 0px;
+       justify-content: center;
+       align-items: flex-start;
+    }
+ 
+    .logo2{
+       width: 50%;
+       height: 300px;
+       margin-top: 0px;
+ 
+    }
+ 
+    .button2{
+       width: 70%;
+    }
+ 
+    .button3{
+       width: 70%;
+    }
+ 
+    .button{
+       display: flex;
+       gap: 10px;
+       width: 70%;
+    }
+ 
+    
+    .seconddiv{
+       display: flex;
+       flex-direction: column;
+       /* background-color: yellow; */
+       align-items: center;
+       height: 10000px;
+       
+    }
+    
+    .section_first{
+       height: 1300px;
+       /* background-color: yellow; */
+       gap: 0px;
+       align-items: center;
+       
+      
+    }
+ 
+    .logosectionfirst{
+       /* background-color: red; */
+       height: 300px;
+       width: 100%;
+       margin-bottom: 0px;
+    }
+ 
+    .imagesectionfirst1{
+       height: 400px;
+       width: 500px;
+    }
+    .imagesectionfirst{
+       /* background-color: aqua; */
+       width: 100%;
+       display: flex;
+       justify-content: center;
+       height: 400px;
+    }
+    .textesectionfirst{
+       /* background-color: violet; */
+       width: 100%;
+       align-items: flex-start;
+       justify-content: flex-start;
+    }
+ 
+    .section_second{
+       height: 1600px;
+       display: flex;
+       flex-direction: column;
+    }
+ 
+    .titresectionsecond{
+       /* background-color: red; */
+       margin-top: 50px;
+       width: 100%;
+       justify-content: flex-start;
+       margin-top: 0px;
+    }
+ 
+    .h1sectionfirst{
+       font-size: 25px;
+    }
+ 
+    .section_second{
+       /* background-color: yellow; */
+       gap: 0px;
+       height: 1450px;
+    }
+ 
+    .boxcontenue{
+       background-color: aqua;
+       flex-wrap: wrap;
+       height: 1250px;
+       /* background-color: red; */
+       margin-top: 0px;
+       width: 50%;
+    }
+ 
+    .contenue{
+       width: 50%;
+    }
+ 
+    .button1sectionsecond{
+       margin-top: 10px;
+       width: 40%;
+    }
+ 
+    .section_third{
+       height: 1500px;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+      /* background-color: yellow; */
+    }
+   
+    .firstdivsectionthird{
+       /* background-color: red; */
+       width: 100%;
+       height: 0px;
+    }
+ 
+    .seconddivsectionthird{
+       /* background-color: aqua; */
+       width: 100%;
+       height: 600px;
+       justify-content: flex-start;
+    }
+ 
+    .imagefirstsectionthird{
+       height: 0px;
+       width: 0px;
+    }
+ 
+    .enfant1seconddiv{
+       margin-top: 50px;
+    }
+
+    .enfant2seconddiv{
+      /* background-color: red; */
+      width: 100%;
+      display: flex;
+      justify-content: center;
+     
+   }
+
+   .cercle{
+      height: 200px;
+      width: 200px;
+   }
+ 
+    .thirddivsectionthird{
+       /* background-color: yellow; */
+       margin-top: 50px;
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       align-items:flex-end;
+       justify-content: end;
+    }
+ 
+    .horsecran{
+       height: 300px;
+       width: 200px;
+       z-index: 1;
+       margin-right: 320px;
+       margin-top: 62px;
+       
+       
+    }
+ 
+    .servicebox{
+       height: 30px;
+       width: 30px;
+    }
+    .titrehorsecran{
+       font-size: 10px;
+    }
+ 
+    .parahorsecran{
+       font-size: 10px;
+    }
+ 
+    .lienhorsecran{
+       font-size: 10px;
+    }
+
+   
 }
