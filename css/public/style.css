@@ -2855,8 +2855,186 @@ footer >.copyright p {
 
 }
 
+/*___+*/
+
+/*laptop 1024px*/
+
+@media (min-width:769px)  and (max-width:1024px){
+
+   .section_6>.box>.contact_form>.title1 h5{
+      font-size: 105%;
+   }
+
+   .section_6>.box>.contact_form>.title2 h2{
+      font-size: 265%;
+   }
+
+
+   .section_6>.box>.contact_form form>.form_row:first-child>.box2 input[type="text"]{
+      font-size: 55%;
+      padding-bottom: 7%;
+   }
+   .section_6>.box>.contact_form form>.form_row:first-child>.box2 input[type="email"]{
+      font-size: 55%;
+      padding: 0;
+      padding-left: 5%;
+   
+   }
+   .section_6>.box>.contact_form form>.form_row:first-child>.box2 input[type="tel"]{
+      padding-bottom: 7%;
+      font-size:55%;
+   }
+   .section_6>.box>.contact_form form>.form_row textarea{
+      height: 100%;
+
+   }
+   .section_6>.box>.contact_form form>.form_row textarea::placeholder{
+      font-size: 85%;
+   }
+   
+   
+   .section_6>.box>.contact_form form>.form_row:last-child button{
+      font-size: 75%;
+      
+   }
+}
 
 
 
+/*tablet 768px*/
+
+@media (min-width:426px)  and (max-width:768px){
+   
+   .section_6>.box>.contact_form>.title1 h5{
+      font-size: 75%;
+   }
+
+   .section_6>.box>.contact_form>.title2 h2{
+      font-size: 185%;
+   }
 
 
+   .section_6>.box>.contact_form form>.form_row:first-child>.box2 input[type="text"]{
+      font-size: 55%;
+      padding-bottom: 12%;
+   }
+   .section_6>.box>.contact_form form>.form_row:first-child>.box2 input[type="email"]{
+      font-size: 55%;
+      padding: 0;
+      padding-top: 0;
+      padding-left: 5%;
+   
+   }
+   .section_6>.box>.contact_form form>.form_row:first-child>.box2 input[type="tel"]{
+      padding-bottom: 12%;
+      font-size:55%;
+   }
+   .section_6>.box>.contact_form form>.form_row textarea{
+      height: 20%;
+
+   }
+   .section_6>.box>.contact_form form>.form_row textarea::placeholder{
+      font-size: 65%;
+   }
+   
+   
+   .section_6>.box>.contact_form form>.form_row:last-child button{
+      font-size: 45%;
+      
+   }
+   
+}
+
+/*mobil l 375px*/
+
+@media (min-width:321px)  and (max-width:375px){
+   
+   .section_6>.box>.contact_form>.title1 h5{
+      font-size: 45%;
+   }
+
+   .section_6>.box>.contact_form>.title2 h2{
+      font-size: 115%;
+   }
+
+
+   .section_6>.box>.contact_form form>.form_row:first-child>.box2 input[type="text"]{
+      font-size: 4px;
+      padding-bottom: 26%;
+      padding-top: 10%;
+   }
+   .section_6>.box>.contact_form form>.form_row:first-child>.box2 input[type="email"]{
+      font-size: 4px;
+      padding: 0;
+      padding-top: -8px;
+      padding-left: 5%;
+   
+   }
+   .section_6>.box>.contact_form form>.form_row:first-child>.box2 input[type="tel"]{
+      font-size: 4px;
+      padding-bottom: 26%;
+      padding-top: 10%;
+   }
+   .section_6>.box>.contact_form form>.form_row textarea{
+      height: 0%;
+
+   }
+   .section_6>.box>.contact_form form>.form_row textarea::placeholder{
+      font-size: 65%;
+   }
+   
+   
+   .section_6>.box>.contact_form form>.form_row:last-child button{
+      font-size: 25%;
+      
+   }
+   
+}
+
+
+
+/*mobil l 425px*/
+
+@media (min-width:376px)  and (max-width:425px){
+   
+   .section_6>.box>.contact_form>.title1 h5{
+      font-size: 25%;
+   }
+
+   .section_6>.box>.contact_form>.title2 h2{
+      font-size: 85%;
+   }
+
+
+   .section_6>.box>.contact_form form>.form_row:first-child>.box2 input[type="text"]{
+      font-size: 2px;
+      padding-bottom: 32%;
+      padding-top: 10%;
+   }
+   .section_6>.box>.contact_form form>.form_row:first-child>.box2 input[type="email"]{
+      font-size: 2px;
+      padding: 0;
+      padding-top: -8px;
+      padding-left: 5%;
+   
+   }
+   .section_6>.box>.contact_form form>.form_row:first-child>.box2 input[type="tel"]{
+      font-size: 2px;
+      padding-bottom: 26%;
+      padding-top: 10%;
+   }
+   .section_6>.box>.contact_form form>.form_row textarea{
+      height: 10px;
+
+   }
+   .section_6>.box>.contact_form form>.form_row textarea::placeholder{
+      font-size: 65%;
+   }
+   
+   
+   .section_6>.box>.contact_form form>.form_row:last-child button{
+      font-size: 2px;
+      
+   }
+   
+}
