@@ -810,7 +810,7 @@ transform: rotate(180deg);
 background-color: rgba(8,211,238,255);
 color: white;
 font-weight: bold;
-border: 0;
+border-color: none;
 border-radius: 25px;
 width: 33%;
 padding: 3%;
@@ -818,9 +818,8 @@ font-size: 110%;
 }
 
 .section_4>.box>.right button:hover{
-   background-color:transparent;
-   
-    border: 0.1px solid rgb(10,211,239);
+   background-color: transparent;
+    border-color: rgb(10,211,239);
 
  }
 /*--------section 5 -------*/
@@ -1328,7 +1327,7 @@ font-weight: bold;
    background-color: rgba(8,211,238,255);
    color: white;
    font-weight: bold;
-   border: 0;
+   border-color: rgb(10,211,239);
    border-radius: 26px;
    width: 15%;
    padding: 1.6%;
@@ -1339,7 +1338,7 @@ font-weight: bold;
 .section_6>.box>.contact_form form>.form_row:last-child button:hover{
    background-color:transparent;
    
-    border:  solid rgb(10,211,239);
+    border-color: rgb(10,211,239);
 
  }
 
@@ -1552,9 +1551,13 @@ footer > .resume_description > .box > .newsletter > .submit > .box_agree input[t
 }
 
 
-footer > .resume_description > .box > .newsletter > .submit > .box_agree input[type="checkbox"]:checked::after {
-   background-color:rgba(18,32,97,255); 
+footer > .resume_description > .box > .newsletter > .submit > .box_agree input[type="checkbox"]:checked::before {
+   
+   background-color: rgb(0, 255, 234);
+   content: '';
+   color: white;
 }
+
 
 /**/
 footer>.resume_description>.box>.newsletter>.submit>.box_agree span{
