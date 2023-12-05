@@ -2702,7 +2702,7 @@ footer >.copyright p {
     }
  
     .boxcontenue{
-       background-color: aqua;
+       /* background-color: aqua; */
        flex-wrap: wrap;
        height: 1250px;
        /* background-color: red; */
