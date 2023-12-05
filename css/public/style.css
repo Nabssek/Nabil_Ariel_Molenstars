@@ -1551,8 +1551,11 @@ footer > .resume_description > .box > .newsletter > .submit > .box_agree input[t
 }
 
 
-footer > .resume_description > .box > .newsletter > .submit > .box_agree input[type="checkbox"]:checked::after {
-   background-color:rgba(18,32,97,255); 
+footer > .resume_description > .box > .newsletter > .submit > .box_agree input[type="checkbox"]:checked::before {
+   
+   background-color: rgb(0, 255, 234);
+   content: '';
+   color: white;
 }
 
 /**/
